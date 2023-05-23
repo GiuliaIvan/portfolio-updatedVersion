@@ -44,37 +44,34 @@ const Experience = () => {
             </article>
           </div>
         </div>
+        {/* END OF FRONTEND */}
+
         <div className="experience__backend">
           <h3>Backend Development</h3>
           <div className="experience__content">
             <article className="experience__details">
               <BsPatchCheckFill />
-              <h4>HTML</h4>
+              <h4>NodeJS</h4>
               <small className="text-light">Experienced</small>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill />
-              <h4>CSS</h4>
+              <h4>MongoDB</h4>
               <small className="text-light">Intermediate</small>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill />
-              <h4>JavaScript</h4>
-              <small className="text-light">Experienced</small>
+              <h4>PHP</h4>
+              <small className="text-light">Intermediate</small>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill />
-              <h4>Bootstrap</h4>
-              <small className="text-light">Experienced</small>
+              <h4>MySQL</h4>
+              <small className="text-light">Basic</small>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill />
-              <h4>Tailwind</h4>
-              <small className="text-light">Experienced</small>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill />
-              <h4>React</h4>
+              <h4>Python</h4>
               <small className="text-light">Experienced</small>
             </article>
           </div>
