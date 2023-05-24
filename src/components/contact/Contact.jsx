@@ -20,7 +20,7 @@ const Contact = () => {
       }, (error) => {
           console.log(error.text);
       });
-    e.target.reset();
+    e.target.reset(); // when they send the message, refresh the page
   };
 
   return (
