@@ -14,12 +14,13 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_bep3htd', 'template_hc8aa9t', form.current, '583DB53BocR-YfxG9')
+    emailjs.sendForm('service_bep3htd', 'template_hc8aa9t', form.current, '30OmoGfxJxvZ9EXuk')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
           console.log(error.text);
       });
+    e.target.reset();
   };
 
   return (
@@ -33,7 +34,7 @@ const Contact = () => {
             <MdOutlineEmail className='contact__option-icon'/>
             <h4>Email</h4>
             <h5>dummyegator@gmail.com</h5>
-            <a href="mailto:dummyegator@gmail.com" target='_blank' rel='noreferrer'>Send a message</a>
+            <a href="mailto:giuliaivanlet.gr8@gmail.com" target='_blank' rel='noreferrer'>Send a message</a>
           </article>
 
           <article className="contact__option">
