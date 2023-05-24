@@ -19,7 +19,7 @@ const data = [
   {
     id: 2,
     image: IMG2,
-    title: 'Charts template & info graphics',
+    title: 'Charts template & info graphics Currency Dashboard & Financial',
     github: 'https://github.com',
     demo: 'https://dribbble.com/shots/21455433-Orion-UI-kit-data-visualization-and-charts-templates-for-Figma'
   },
@@ -27,7 +27,7 @@ const data = [
   {
     id: 3,
     image: IMG3,
-    title: 'Figma dashboard',
+    title: 'Figma dashboard Currency Dashboard & Financial',
     github: 'https://github.com',
     demo: 'https://dribbble.com/shots/21455433-Orion-UI-kit-data-visualization-and-charts-templates-for-Figma'
   },
@@ -43,7 +43,7 @@ const data = [
   {
     id: 5,
     image: IMG5,
-    title: 'Charts template & info graphics',
+    title: 'Charts template & info graphics Currency Dashboard & Financial',
     github: 'https://github.com',
     demo: 'https://dribbble.com/shots/21455433-Orion-UI-kit-data-visualization-and-charts-templates-for-Figma'
   },
@@ -51,7 +51,7 @@ const data = [
   {
     id: 6,
     image: IMG6,
-    title: 'Figma dashboard',
+    title: 'Figma dashboard Currency Dashboard & Financial',
     github: 'https://github.com',
     demo: 'https://dribbble.com/shots/21455433-Orion-UI-kit-data-visualization-and-charts-templates-for-Figma'
   },
