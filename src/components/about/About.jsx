@@ -28,7 +28,7 @@ const About = () => {
             <article className="about__card">
               <FiUsers className="about__icon" />
               <h5>Clients</h5>
-              <small>3+ in Europe</small>
+              <small>4+ in Europe</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
@@ -38,10 +38,8 @@ const About = () => {
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse
-            maiores cupiditate harum numquam tempora, hic dignissimos ipsum
-            corporis perspiciatis adipisci mollitia animi libero et quaerat
-            voluptate expedita repudiandae magni aliquam.
+            Frontend developer who helps people materialize their dream into a
+            beautiful, hands-on prototype. Creative, insightful and passionate about writing, videography and voley.
           </p>
 
           <a href="#contact" className="btn btn-primary">
