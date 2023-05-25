@@ -36,13 +36,21 @@ const Footer = () => {
       </ul>
 
       <div className="footer__socials">
-        <a href="https://www.facebook.com/giuli.ivan.20.07">
+        <a
+          href="https://www.facebook.com/giuli.ivan.20.07"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FaFacebookF />
         </a>
-        <a href="https://linktr.ee/giuliaivan">
+        <a href="https://linktr.ee/giuliaivan" target="_blank" rel="noreferrer">
           <SiLinktree />
         </a>
-        <a href="https://github.com/GiuliaIvan">
+        <a
+          href="https://github.com/GiuliaIvan"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FaGithub />
         </a>
       </div>

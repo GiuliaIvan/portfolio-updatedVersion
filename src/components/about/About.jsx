@@ -7,9 +7,9 @@ import {VscFolderLibrary} from 'react-icons/vsc'
 
 const About = () => {
   return (
-    <section id='about'>
-      <h5>Get To Know Me</h5>
-      <h2>About</h2>
+    <section id="about">
+      <h5>hey, it's not always</h5>
+      <h2>about me</h2>
 
       <div className="container about__container">
         <div className="about__me">
@@ -20,32 +20,37 @@ const About = () => {
 
         <div className="about__content">
           <div className="about__cards">
-            <article className='about__card'>
-              <FaAward className='about__icon'/>
+            <article className="about__card">
+              <FaAward className="about__icon" />
               <h5>Experience</h5>
               <small>2+ Years</small>
             </article>
-            <article className='about__card'>
-              <FiUsers className='about__icon'/>
+            <article className="about__card">
+              <FiUsers className="about__icon" />
               <h5>Clients</h5>
               <small>3+ in Europe</small>
             </article>
-            <article className='about__card'>
-              <VscFolderLibrary className='about__icon'/>
+            <article className="about__card">
+              <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
               <small>10+ Projects</small>
             </article>
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse maiores cupiditate harum numquam tempora, hic dignissimos ipsum corporis perspiciatis adipisci mollitia animi libero et quaerat voluptate expedita repudiandae magni aliquam.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse
+            maiores cupiditate harum numquam tempora, hic dignissimos ipsum
+            corporis perspiciatis adipisci mollitia animi libero et quaerat
+            voluptate expedita repudiandae magni aliquam.
           </p>
 
-          <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+          <a href="#contact" className="btn btn-primary">
+            Let's Talk
+          </a>
         </div>
       </div>
     </section>
-  )
+  );
 }
 
 export default About
