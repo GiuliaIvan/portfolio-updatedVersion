@@ -1,61 +1,62 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/portfolio1.jpg'
-import IMG2 from '../../assets/portfolio2.jpg'
-import IMG3 from '../../assets/portfolio3.jpg'
-import IMG4 from '../../assets/portfolio4.jpg'
-import IMG5 from '../../assets/portfolio5.png'
+import IMG1 from '../../assets/portfolio7.jpg'
+import IMG2 from '../../assets/portfolio8.jpg'
+import IMG3 from '../../assets/portfolio9.png'
+import IMG4 from '../../assets/portfolio10.png'
+import IMG5 from '../../assets/portfolio11.jpg'
 import IMG6 from '../../assets/portfolio6.jpg'
 
 const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'Crypto Currency Dashboard & Financial Visualization',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/21455466-Orion-UI-kit-data-visualization-and-charts-templates-for-Figma'
+    title: "Café Her Og Der - a place defined by coziness & hygge",
+    github: "https://github.com/GiuliaIvan/cafeHerOgDer",
+    demo: "https://herogder.giuliaivan.website/",
   },
 
   {
     id: 2,
     image: IMG2,
-    title: 'Charts template & info graphics Currency Dashboard & Financial',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/21455433-Orion-UI-kit-data-visualization-and-charts-templates-for-Figma'
+    title: "Kromosom - a diversity cafe/bar, located in the center of Aarhus",
+    github: "https://github.com/GiuliaIvan/kromosom",
+    demo: "http://kromosom66.dk/",
   },
 
   {
     id: 3,
     image: IMG3,
-    title: 'Figma dashboard Currency Dashboard & Financial',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/21455433-Orion-UI-kit-data-visualization-and-charts-templates-for-Figma'
+    title: "Waves -  the first year of a student in Denmark",
+    github: "https://github.com/GiuliaIvan/wavesWebMagazine",
+    demo: "http://waves.eniko.website/",
   },
 
   {
     id: 4,
     image: IMG4,
-    title: 'Crypto Currency Dashboard & Financial Visualization',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/21455466-Orion-UI-kit-data-visualization-and-charts-templates-for-Figma'
+    title:
+      "Dorm8s - an app built to make life living in a dorm easier (mobile only)",
+    github: "https://github.com/GiuliaIvan/dorm8s",
+    demo: "https://vlkeniko.github.io/dorm8ts.build/",
   },
 
   {
     id: 5,
     image: IMG5,
-    title: 'Charts template & info graphics Currency Dashboard & Financial',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/21455433-Orion-UI-kit-data-visualization-and-charts-templates-for-Figma'
+    title: "PICit Dispatch view - UX/UI design",
+    github: "https://github.com",
+    demo: "https://xd.adobe.com/view/5fe1536e-ce8d-4ecc-836d-7f124c3a441f-0ab2/",
   },
 
   {
     id: 6,
     image: IMG6,
-    title: 'Figma dashboard Currency Dashboard & Financial',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/21455433-Orion-UI-kit-data-visualization-and-charts-templates-for-Figma'
+    title: "Figma dashboard Currency Dashboard & Financial",
+    github: "https://github.com",
+    demo: "https://dribbble.com/shots/21455433-Orion-UI-kit-data-visualization-and-charts-templates-for-Figma",
   },
-]
+];
 
 const Portfolio = () => {
   return (
