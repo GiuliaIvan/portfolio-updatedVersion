@@ -1,7 +1,7 @@
 import React from 'react'
 import './footer.css'
 import {FaFacebookF} from 'react-icons/fa'
-import {FiInstagram} from 'react-icons/fi'
+import { SiLinktree } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
 
 const Footer = () => {
@@ -39,8 +39,8 @@ const Footer = () => {
         <a href="https://www.facebook.com/giuli.ivan.20.07">
           <FaFacebookF />
         </a>
-        <a href="https://www.instagram.com/giuli_ivan/">
-          <FiInstagram />
+        <a href="https://linktr.ee/giuliaivan">
+          <SiLinktree />
         </a>
         <a href="https://github.com/GiuliaIvan">
           <FaGithub />
