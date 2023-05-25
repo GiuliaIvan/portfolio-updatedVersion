@@ -5,7 +5,7 @@ import IMG2 from '../../assets/portfolio8.jpg'
 import IMG3 from '../../assets/portfolio9.png'
 import IMG4 from '../../assets/portfolio10.png'
 import IMG5 from '../../assets/portfolio11.jpg'
-import IMG6 from '../../assets/portfolio6.jpg'
+import IMG6 from '../../assets/portfolio12.png'
 
 const data = [
   {
@@ -52,9 +52,9 @@ const data = [
   {
     id: 6,
     image: IMG6,
-    title: "Figma dashboard Currency Dashboard & Financial",
-    github: "https://github.com",
-    demo: "https://dribbble.com/shots/21455433-Orion-UI-kit-data-visualization-and-charts-templates-for-Figma",
+    title: "CoroBeauty - cosmetologist website",
+    github: "https://github.com/GiuliaIvan/CoroBeauty",
+    demo: "https://corobeauty.giuliaivan.website/",
   },
 ];
 
