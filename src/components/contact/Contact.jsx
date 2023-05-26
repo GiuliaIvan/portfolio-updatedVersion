@@ -28,7 +28,7 @@ const Contact = () => {
       <h5>
         long-distance relationships
         <br />
-        couldn't be easier
+        couldn't be easier...
       </h5>
       <h2>let's build ours</h2>
 

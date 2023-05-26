@@ -61,7 +61,7 @@ const data = [
 const Portfolio = () => {
   return (
     <section id='portfolio'>
-      <h5>from plain ideas</h5>
+      <h5>from plain ideas...</h5>
       <h2>to GR8 things</h2>
       <div className="container portfolio__container">
         {
