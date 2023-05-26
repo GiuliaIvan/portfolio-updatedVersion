@@ -44,7 +44,7 @@ const data = [
   {
     id: 5,
     image: IMG5,
-    title: "PICit Dispatch view - UX/UI design",
+    title: "PICit Dispatch view - UX/UI design (desktop only)",
     github: "https://github.com",
     demo: "https://xd.adobe.com/view/5fe1536e-ce8d-4ecc-836d-7f124c3a441f-0ab2/",
   },
