@@ -17,23 +17,23 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>I develop the user interface</p>
+              <p>Visual Design and Branding</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Web page development</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>I create ux element interactions</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>I position your company brand</p>
+              <p>Creating UX element interactions</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
               <p>Design and mockups of products</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>User Research and Persona Development</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Information Architecture and Navigation Design</p>
             </li>
           </ul>
         </article>
@@ -47,23 +47,23 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>I develop the user interface</p>
+              <p>Responsive Website Development</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Web page development</p>
+              <p>Frontend Framework Implementation (ReactJS)</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>I create ux element interactions</p>
+              <p>User Interface (UI) Design Integration</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>I position your company brand</p>
+              <p>Website Performance Optimization</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Design and mockups of products</p>
+              <p>Compatibility Testing</p>
             </li>
           </ul>
         </article>
@@ -77,24 +77,24 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>I develop the user interface</p>
+              <p>Video Editing</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Web page development</p>
+              <p>Copywriting </p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>I create ux element interactions</p>
+              <p> Content Editing</p>
             </li>
-            <li>
+            {/* <li>
               <BiCheck className="service__list-icon" />
               <p>I position your company brand</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
               <p>Design and mockups of products</p>
-            </li>
+            </li> */}
           </ul>
         </article>
         {/* END OF Content Creation */}
