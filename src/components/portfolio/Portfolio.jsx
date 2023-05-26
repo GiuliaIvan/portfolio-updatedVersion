@@ -6,6 +6,9 @@ import IMG3 from '../../assets/portfolio9.png'
 import IMG4 from '../../assets/portfolio10.png'
 import IMG5 from '../../assets/portfolio11.jpg'
 import IMG6 from '../../assets/portfolio12.png'
+import IMG7 from '../../assets/portfolio13.png'
+import IMG8 from '../../assets/portfolio14.png'
+import IMG9 from '../../assets/portfolio15.jpg'
 
 const data = [
   {
@@ -35,8 +38,7 @@ const data = [
   {
     id: 4,
     image: IMG4,
-    title:
-      "Dorm8s - app design for dorms (mobile only)",
+    title: "Dorm8s - app design for dorms (mobile only)",
     github: "https://github.com/GiuliaIvan/dorm8s",
     demo: "https://vlkeniko.github.io/dorm8ts.build/",
   },
@@ -55,6 +57,30 @@ const data = [
     title: "CoroBeauty - cosmetologist website",
     github: "https://github.com/GiuliaIvan/CoroBeauty",
     demo: "https://corobeauty.giuliaivan.website/",
+  },
+
+  {
+    id: 7,
+    image: IMG7,
+    title: "Personal JavaScript projects",
+    github: "https://github.com/GiuliaIvan/JavaScript-projects",
+    demo: "https://giuliaivan.github.io/JavaScript-projects/",
+  },
+
+  {
+    id: 9,
+    image: IMG9,
+    title: "Content Creation - Youtube videos",
+    github: "https://github.com/GiuliaIvan/AdminDashboard",
+    demo: "https://youtube.com/@giuliaivan202",
+  },
+
+  {
+    id: 8,
+    image: IMG8,
+    title: "Finde - Grundfos Kollegiet Digital Assistant",
+    github: "https://github.com/GiuliaIvan/Planti",
+    demo: "https://xd.adobe.com/view/f0affcad-3cf4-4f1e-98d4-3b33160dcc0d-a5fc/screen/47c54d60-8d30-4d1b-910d-a934a5391825",
   },
 ];
 
