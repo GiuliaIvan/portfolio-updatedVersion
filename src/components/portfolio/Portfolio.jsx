@@ -27,7 +27,7 @@ const data = [
   {
     id: 3,
     image: IMG3,
-    title: "Waves -  the first year of a student in Denmark",
+    title: "Waves Web Magazine -  the first year of a student in Denmark",
     github: "https://github.com/GiuliaIvan/wavesWebMagazine",
     demo: "http://waves.eniko.website/",
   },
@@ -36,7 +36,7 @@ const data = [
     id: 4,
     image: IMG4,
     title:
-      "Dorm8s - an app built to make life living in a dorm easier (mobile only)",
+      "Dorm8s - app design for dorms (mobile only)",
     github: "https://github.com/GiuliaIvan/dorm8s",
     demo: "https://vlkeniko.github.io/dorm8ts.build/",
   },
