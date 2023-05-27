@@ -5,7 +5,7 @@ import {BiCheck} from 'react-icons/bi'
 const Services = () => {
   return (
     <section id="services">
-      <h5>what you can get from me</h5>
+      <h5>the question is... what can't I do?</h5>
       <h2>services</h2>
 
       <div className="container services__container">
