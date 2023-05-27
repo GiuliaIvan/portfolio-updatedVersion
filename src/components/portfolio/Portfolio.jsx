@@ -47,7 +47,8 @@ const data = [
     id: 5,
     image: IMG5,
     title: "PICit Dispatch view - UX/UI design (desktop only)",
-    github: "https://github.com",
+    github:
+      "https://xd.adobe.com/view/5fe1536e-ce8d-4ecc-836d-7f124c3a441f-0ab2/",
     demo: "https://xd.adobe.com/view/5fe1536e-ce8d-4ecc-836d-7f124c3a441f-0ab2/",
   },
 
@@ -71,7 +72,7 @@ const data = [
     id: 9,
     image: IMG9,
     title: "Content Creation - Youtube videos",
-    github: "https://github.com/GiuliaIvan/AdminDashboard",
+    github: "https://youtube.com/@giuliaivan202",
     demo: "https://youtube.com/@giuliaivan202",
   },
 
@@ -79,7 +80,7 @@ const data = [
     id: 8,
     image: IMG8,
     title: "Finde - Grundfos Kollegiet Digital Assistant",
-    github: "https://github.com/GiuliaIvan/Planti",
+    github:"https://xd.adobe.com/view/f0affcad-3cf4-4f1e-98d4-3b33160dcc0d-a5fc/screen/47c54d60-8d30-4d1b-910d-a934a5391825",
     demo: "https://xd.adobe.com/view/f0affcad-3cf4-4f1e-98d4-3b33160dcc0d-a5fc/screen/47c54d60-8d30-4d1b-910d-a934a5391825",
   },
 ];
