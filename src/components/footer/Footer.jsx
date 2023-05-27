@@ -7,9 +7,9 @@ import { FaGithub } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer>
-      <a href="#" className="footer__logo">
+      {/* <a href="#" className="footer__logo">
         GR8
-      </a>
+      </a> */}
 
       <ul className="permalinks">
         <li>
