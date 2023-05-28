@@ -1,3 +1,8 @@
+GitHub repository for my portfolio
+
+Check out the live running website here: https://giuliaivan.website/
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
