@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/portfolio-updatedVersion/static/css/main.e1e377db.css",
-    "main.js": "/portfolio-updatedVersion/static/js/main.3c986ceb.js",
+    "main.js": "/portfolio-updatedVersion/static/js/main.b4ca01ce.js",
     "static/media/portfolio8.jpg": "/portfolio-updatedVersion/static/media/portfolio8.43b7cc956826a884544e.jpg",
     "static/media/portfolio14.png": "/portfolio-updatedVersion/static/media/portfolio14.718bae570adf911a229d.png",
-    "static/media/GiuliaIvanResume.pdf": "/portfolio-updatedVersion/static/media/GiuliaIvanResume.7634d1b08b25bac64e12.pdf",
+    "static/media/GiuliaIvanResume.pdf": "/portfolio-updatedVersion/static/media/GiuliaIvanResume.daa307926e44c420c729.pdf",
     "static/media/portfolio11.jpg": "/portfolio-updatedVersion/static/media/portfolio11.a1346a57a4f0805963ea.jpg",
     "static/media/avatar2.png": "/portfolio-updatedVersion/static/media/avatar2.39da70e39478f3684418.png",
     "static/media/portfolio12.png": "/portfolio-updatedVersion/static/media/portfolio12.607cafe3abff5fabc929.png",
@@ -17,10 +17,10 @@
     "static/media/avatar1.png": "/portfolio-updatedVersion/static/media/avatar1.b89005eab6e67af32337.png",
     "index.html": "/portfolio-updatedVersion/index.html",
     "main.e1e377db.css.map": "/portfolio-updatedVersion/static/css/main.e1e377db.css.map",
-    "main.3c986ceb.js.map": "/portfolio-updatedVersion/static/js/main.3c986ceb.js.map"
+    "main.b4ca01ce.js.map": "/portfolio-updatedVersion/static/js/main.b4ca01ce.js.map"
   },
   "entrypoints": [
     "static/css/main.e1e377db.css",
-    "static/js/main.3c986ceb.js"
+    "static/js/main.b4ca01ce.js"
   ]
 }
