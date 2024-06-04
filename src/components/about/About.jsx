@@ -1,9 +1,9 @@
-import React from 'react'
-import './about.css'
-import ME from '../../assets/me-about2.jpg'
-import {FaAward} from 'react-icons/fa'
-import {FiUsers} from 'react-icons/fi'
-import {VscFolderLibrary} from 'react-icons/vsc'
+import React from "react";
+import "./about.css";
+import ME from "../../assets/me-about2.jpg";
+import { FaAward } from "react-icons/fa";
+import { FiUsers } from "react-icons/fi";
+import { VscFolderLibrary } from "react-icons/vsc";
 
 const About = () => {
   return (
@@ -23,23 +23,24 @@ const About = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>2+ Years</small>
+              <small>3.5+ Years</small>
             </article>
             <article className="about__card">
               <FiUsers className="about__icon" />
               <h5>Clients</h5>
-              <small>4+ in Europe</small>
+              <small>6+ in Europe</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
-              <small>10+ Projects</small>
+              <small>13+ Projects</small>
             </article>
           </div>
 
           <p>
             Frontend developer who helps people materialize their dream into a
-            beautiful, hands-on prototype. Creative, insightful and passionate about writing, videography and voley.
+            beautiful, hands-on prototype. Creative, insightful and passionate
+            about writing, videography and voley.
           </p>
 
           <a href="#contact" className="btn btn-primary">
@@ -49,6 +50,6 @@ const About = () => {
       </div>
     </section>
   );
-}
+};
 
-export default About
+export default About;

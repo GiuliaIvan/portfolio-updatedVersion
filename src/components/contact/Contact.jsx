@@ -1,12 +1,11 @@
-import React from 'react'
-import './contact.css'
-import {MdOutlineEmail} from 'react-icons/md'
-import {RiMessengerLine} from 'react-icons/ri'
+import React from "react";
+import "./contact.css";
+import { MdOutlineEmail } from "react-icons/md";
+import { SlSocialLinkedin } from "react-icons/sl";
 import { FiInstagram } from "react-icons/fi";
 
-import { useRef } from 'react';
-import emailjs from 'emailjs-com'
-
+import { useRef } from "react";
+import emailjs from "emailjs-com";
 
 const Contact = () => {
   const form = useRef();
@@ -14,12 +13,21 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_bep3htd', 'template_hc8aa9t', form.current, '30OmoGfxJxvZ9EXuk')
-      .then((result) => {
+    emailjs
+      .sendForm(
+        "service_bep3htd",
+        "template_hc8aa9t",
+        form.current,
+        "30OmoGfxJxvZ9EXuk"
+      )
+      .then(
+        (result) => {
           console.log(result.text);
-      }, (error) => {
+        },
+        (error) => {
           console.log(error.text);
-      });
+        }
+      );
     e.target.reset(); // when they send the message, refresh the page
   };
 
@@ -36,10 +44,10 @@ const Contact = () => {
         <div className="contact__options">
           <article className="contact__option">
             <MdOutlineEmail className="contact__option-icon" />
-            <h4>Email</h4>
-            <h5>giuliaivanlet.gr8@gmail.com</h5>
+            <h4>Mail</h4>
+            <h5>giuliarafaela.ivanlet@gmail.com</h5>
             <a
-              href="mailto:giuliaivanlet.gr8@gmail.com"
+              href="mailto:giuliarafaela.ivanlet@gmail.com"
               target="_blank"
               rel="noreferrer"
             >
@@ -48,15 +56,15 @@ const Contact = () => {
           </article>
 
           <article className="contact__option">
-            <RiMessengerLine className="contact__option-icon" />
-            <h4>Messenger</h4>
-            <h5>giuli.ivan.20.07</h5>
+            <SlSocialLinkedin className="contact__option-icon" />
+            <h4>LinkedIn</h4>
+            <h5>Giulia Ivan</h5>
             <a
-              href="https://m.me/giuli.ivan.20.07"
+              href="https://www.linkedin.com/in/giulia-ivan/"
               target="_blank"
               rel="noreferrer"
             >
-              Send a message
+              Let's connect
             </a>
           </article>
 
@@ -69,7 +77,7 @@ const Contact = () => {
               target="_blank"
               rel="noreferrer"
             >
-              Send a message
+              Follow me
             </a>
           </article>
         </div>
@@ -96,6 +104,6 @@ const Contact = () => {
       </div>
     </section>
   );
-}
+};
 
-export default Contact
+export default Contact;

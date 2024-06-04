@@ -37,6 +37,10 @@
     margin-bottom: 1rem;
 }
 
+#hiddenButton {
+    display: none;
+}
+
 
 
 /* ============ MEDIA QUERIES (MEDIUM DEVICES) ============ */

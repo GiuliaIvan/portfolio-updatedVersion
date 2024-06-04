@@ -12,15 +12,15 @@ import IMG9 from '../../assets/portfolio15.jpg'
 
 const data = [
   {
-    id: 1,
+    key: 1,
     image: IMG1,
     title: "Café Her Og Der - a place defined by coziness & hygge",
     github: "https://github.com/GiuliaIvan/cafeHerOgDer",
-    demo: "https://herogder.giuliaivan.website/",
+    demo: "https://giuliaivan.github.io/cafeHerOgDer/",
   },
 
   {
-    id: 2,
+    key: 2,
     image: IMG2,
     title: "Kromosom - a diversity cafe/bar, located in the center of Aarhus",
     github: "https://github.com/GiuliaIvan/kromosom",
@@ -28,7 +28,7 @@ const data = [
   },
 
   {
-    id: 3,
+    key: 3,
     image: IMG3,
     title: "Waves Web Magazine -  the first year of a student in Denmark",
     github: "https://github.com/GiuliaIvan/wavesWebMagazine",
@@ -36,7 +36,7 @@ const data = [
   },
 
   {
-    id: 4,
+    key: 4,
     image: IMG4,
     title: "Dorm8s - app design for dorms (mobile only)",
     github: "https://github.com/GiuliaIvan/dorm8s",
@@ -44,7 +44,8 @@ const data = [
   },
 
   {
-    id: 5,
+    key: 5,
+    id: "hiddenButton",
     image: IMG5,
     title: "PICit Dispatch view - UX/UI design (desktop only)",
     github:
@@ -53,15 +54,15 @@ const data = [
   },
 
   {
-    id: 6,
+    key: 6,
     image: IMG6,
     title: "CoroBeauty - cosmetologist website",
     github: "https://github.com/GiuliaIvan/CoroBeauty",
-    demo: "https://corobeauty.giuliaivan.website/",
+    demo: "https://giuliaivan.github.io/CoroBeauty/",
   },
 
   {
-    id: 7,
+    key: 7,
     image: IMG7,
     title: "Personal JavaScript projects",
     github: "https://github.com/GiuliaIvan/JavaScript-projects",
@@ -69,7 +70,8 @@ const data = [
   },
 
   {
-    id: 9,
+    key: 9,
+    id: "hiddenButton",
     image: IMG9,
     title: "Content Creation - Youtube videos",
     github: "https://youtube.com/@giuliaivan202",
@@ -77,10 +79,12 @@ const data = [
   },
 
   {
-    id: 8,
+    key: 8,
+    id: "hiddenButton",
     image: IMG8,
     title: "Finde - Grundfos Kollegiet Digital Assistant",
-    github:"https://xd.adobe.com/view/f0affcad-3cf4-4f1e-98d4-3b33160dcc0d-a5fc/screen/47c54d60-8d30-4d1b-910d-a934a5391825",
+    github:
+      "https://xd.adobe.com/view/f0affcad-3cf4-4f1e-98d4-3b33160dcc0d-a5fc/screen/47c54d60-8d30-4d1b-910d-a934a5391825",
     demo: "https://xd.adobe.com/view/f0affcad-3cf4-4f1e-98d4-3b33160dcc0d-a5fc/screen/47c54d60-8d30-4d1b-910d-a934a5391825",
   },
 ];
@@ -89,10 +93,10 @@ const Portfolio = () => {
   return (
     <section id='portfolio'>
       <h5>from plain ideas...</h5>
-      <h2>to GR8 things</h2>
+      <h2>to GR8 solutions</h2>
       <div className="container portfolio__container">
         {
-          data.map(({id, image, title, github, demo}) => {
+          data.map(({key, id, image, title, github, demo}) => {
             return (
               <article key={id} className="portfolio__item">
                 <div className="portfolio__item-image">
@@ -100,7 +104,7 @@ const Portfolio = () => {
                 </div>
                 <h3>{title}</h3>
                 <div className="portfolio__item-cta">
-                  <a href={github} className='btn' target='_blank' rel='noreferrer'>GitHub</a>
+                  <a href={github} className='btn' id={id} target='_blank' rel='noreferrer'>GitHub</a>
                   <a href={demo} className='btn btn-primary' target='_blank' rel='noreferrer'>Live Demo</a>
                 </div>
               </article>

@@ -25,7 +25,26 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Design and mockups of products</p>
+              <p>Design and Mockups of products</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Understanding of user-centered design principles</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>
+                Ability to translate wireframes and mockups into functional,
+                high-performance code
+              </p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Proficiency in design tools like Adobe XD, Figma</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Design and Mockups of products</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
@@ -51,11 +70,33 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Frontend Framework Implementation (ReactJS)</p>
+              <p>Frontend Framework Implementation (React, Lit)</p>
+            </li>
+
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>
+                Asynchronous request handling, partial page updates, and AJAX
+              </p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>User Interface (UI) Design Integration</p>
+              <p>Mobile-first design and development</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Git and GitHub</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>
+                Ability to work closely with designers, backend developers, and
+                product managers
+              </p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>UI Design Integration</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
