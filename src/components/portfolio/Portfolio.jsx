@@ -9,6 +9,9 @@ import IMG6 from '../../assets/portfolio12.png'
 import IMG7 from '../../assets/portfolio13.png'
 import IMG8 from '../../assets/portfolio14.png'
 import IMG9 from '../../assets/portfolio15.jpg'
+import IMG10 from '../../assets/maxizoo.png'
+import IMG11 from '../../assets/grundfos.png'
+import IMG12 from '../../assets/linder.png'
 
 const data = [
   {
@@ -17,6 +20,53 @@ const data = [
     title: "Café Her Og Der - a place defined by coziness & hygge",
     github: "https://github.com/GiuliaIvan/cafeHerOgDer",
     demo: "https://giuliaivan.github.io/cafeHerOgDer/",
+  },
+
+  {
+    key: 10,
+    id: "hiddenButton",
+    image: IMG10,
+    title: "MaxiZoo - Web Shop",
+    github:
+      "https://www.figma.com/proto/2G0nRjjbvtFd6cQcSYLRrY/MaxiZoo%2B?node-id=2-848&t=Yr4xFcASShbbtzUp-1",
+    demo: "https://www.figma.com/proto/2G0nRjjbvtFd6cQcSYLRrY/MaxiZoo%2B?node-id=2-848&t=Yr4xFcASShbbtzUp-1",
+  },
+
+  {
+    key: 11,
+    id: "hiddenButton",
+    image: IMG11,
+    title: "Grundfos - Eacademy Redesign",
+    github:
+      "https://www.figma.com/proto/a9lE5fFsqr9T0KCX21EiIz/Prototype?node-id=187-5579&t=ulFiY5ItBpThKueJ-1",
+    demo: "https://www.figma.com/proto/a9lE5fFsqr9T0KCX21EiIz/Prototype?node-id=187-5579&t=ulFiY5ItBpThKueJ-1",
+  },
+
+  {
+    key: 5,
+    id: "hiddenButton",
+    image: IMG5,
+    title: "PICit Dispatch view - UX/UI design (desktop only)",
+    github:
+      "https://xd.adobe.com/view/5fe1536e-ce8d-4ecc-836d-7f124c3a441f-0ab2/",
+    demo: "https://xd.adobe.com/view/5fe1536e-ce8d-4ecc-836d-7f124c3a441f-0ab2/",
+  },
+
+  {
+    key: 6,
+    image: IMG6,
+    title: "CoroBeauty - cosmetologist website",
+    github: "https://github.com/GiuliaIvan/CoroBeauty",
+    demo: "https://giuliaivan.github.io/CoroBeauty/",
+  },
+
+  {
+    key: 12,
+    image: IMG12,
+    title:
+      "Linder - Tinder merged with LinkedIn to create business connections",
+    github: "https://github.com/tracytratran/linder",
+    demo: "https://github.com/tracytratran/linder",
   },
 
   {
@@ -41,24 +91,6 @@ const data = [
     title: "Dorm8s - app design for dorms (mobile only)",
     github: "https://github.com/GiuliaIvan/dorm8s",
     demo: "https://vlkeniko.github.io/dorm8ts.build/",
-  },
-
-  {
-    key: 5,
-    id: "hiddenButton",
-    image: IMG5,
-    title: "PICit Dispatch view - UX/UI design (desktop only)",
-    github:
-      "https://xd.adobe.com/view/5fe1536e-ce8d-4ecc-836d-7f124c3a441f-0ab2/",
-    demo: "https://xd.adobe.com/view/5fe1536e-ce8d-4ecc-836d-7f124c3a441f-0ab2/",
-  },
-
-  {
-    key: 6,
-    image: IMG6,
-    title: "CoroBeauty - cosmetologist website",
-    github: "https://github.com/GiuliaIvan/CoroBeauty",
-    demo: "https://giuliaivan.github.io/CoroBeauty/",
   },
 
   {
