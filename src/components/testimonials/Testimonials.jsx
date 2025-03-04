@@ -4,6 +4,7 @@ import AVTR1 from '../../assets/avatar1.png'
 import AVTR2 from '../../assets/avatar2.png'
 import AVTR3 from '../../assets/portfolio7.jpg'
 import AVTR4 from '../../assets/portfolio8.jpg'
+import AVTR5 from "../../assets/leo.jpg";
 
 // import Swiper core and required modules
 import { Pagination } from 'swiper';
@@ -16,6 +17,12 @@ import 'swiper/css/pagination';
 
 
 const data = [
+  {
+    avatar: AVTR5,
+    name: "Leonel Barbe on Linder project - ReDi School CEO",
+    review:
+      "Are you looking for the next unicorn?🦄 Then have a look at Linder, the perfect crossover between Tinder and Linkedin, ideal for entrepreneurs and idea haunters.💡 Our students from ReDI School of Digital Integration Aarhus, Giulia Ivan and Tracy Trần, have been programming it, and building this project that definitely can fly high ✈️ so do not hesitate to contact them if you are looking to invest in the next danish unicorn 🚨",
+  },
   {
     avatar: AVTR3,
     name: "Café Her Og Der",

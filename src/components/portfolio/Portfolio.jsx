@@ -64,7 +64,7 @@ const data = [
     key: 12,
     image: IMG12,
     title:
-      "Linder - Tinder merged with LinkedIn to create business connections",
+      "Linder Startup idea - Tinder merged with LinkedIn to create business connections",
     github: "https://github.com/tracytratran/linder",
     demo: "https://github.com/tracytratran/linder",
   },
