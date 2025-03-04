@@ -1,26 +1,29 @@
 {
   "files": {
-    "main.css": "/portfolio-updatedVersion/static/css/main.b50a0a0c.css",
-    "main.js": "/portfolio-updatedVersion/static/js/main.b4ca01ce.js",
+    "main.css": "/portfolio-updatedVersion/static/css/main.e566e9df.css",
+    "main.js": "/portfolio-updatedVersion/static/js/main.fc173f47.js",
     "static/media/portfolio8.jpg": "/portfolio-updatedVersion/static/media/portfolio8.43b7cc956826a884544e.jpg",
     "static/media/portfolio14.png": "/portfolio-updatedVersion/static/media/portfolio14.718bae570adf911a229d.png",
-    "static/media/GiuliaIvanResume.pdf": "/portfolio-updatedVersion/static/media/GiuliaIvanResume.daa307926e44c420c729.pdf",
+    "static/media/GiuliaIvanResume2.pdf": "/portfolio-updatedVersion/static/media/GiuliaIvanResume2.ec15fc642b0344300a78.pdf",
     "static/media/portfolio11.jpg": "/portfolio-updatedVersion/static/media/portfolio11.a1346a57a4f0805963ea.jpg",
     "static/media/avatar2.png": "/portfolio-updatedVersion/static/media/avatar2.39da70e39478f3684418.png",
     "static/media/portfolio12.png": "/portfolio-updatedVersion/static/media/portfolio12.607cafe3abff5fabc929.png",
     "static/media/portfolio9.png": "/portfolio-updatedVersion/static/media/portfolio9.297ce0bfaeca3fbd1000.png",
     "static/media/portfolio15.jpg": "/portfolio-updatedVersion/static/media/portfolio15.1cab547bc9606eb13acc.jpg",
     "static/media/me.png": "/portfolio-updatedVersion/static/media/me.45f2929f7361e664e310.png",
+    "static/media/linder.png": "/portfolio-updatedVersion/static/media/linder.85c955dbba53f6b5e954.png",
     "static/media/me-about2.jpg": "/portfolio-updatedVersion/static/media/me-about2.e9ad280ff8c631e9edfe.jpg",
+    "static/media/maxizoo.png": "/portfolio-updatedVersion/static/media/maxizoo.d6867c679aeee4163162.png",
     "static/media/portfolio10.png": "/portfolio-updatedVersion/static/media/portfolio10.7849ac87aa4b11db627b.png",
     "static/media/portfolio7.jpg": "/portfolio-updatedVersion/static/media/portfolio7.29d9cc73e19261c9cc25.jpg",
+    "static/media/grundfos.png": "/portfolio-updatedVersion/static/media/grundfos.959bfea15f3e05783a70.png",
     "static/media/avatar1.png": "/portfolio-updatedVersion/static/media/avatar1.b89005eab6e67af32337.png",
     "index.html": "/portfolio-updatedVersion/index.html",
-    "main.b50a0a0c.css.map": "/portfolio-updatedVersion/static/css/main.b50a0a0c.css.map",
-    "main.b4ca01ce.js.map": "/portfolio-updatedVersion/static/js/main.b4ca01ce.js.map"
+    "main.e566e9df.css.map": "/portfolio-updatedVersion/static/css/main.e566e9df.css.map",
+    "main.fc173f47.js.map": "/portfolio-updatedVersion/static/js/main.fc173f47.js.map"
   },
   "entrypoints": [
-    "static/css/main.b50a0a0c.css",
-    "static/js/main.b4ca01ce.js"
+    "static/css/main.e566e9df.css",
+    "static/js/main.fc173f47.js"
   ]
 }
