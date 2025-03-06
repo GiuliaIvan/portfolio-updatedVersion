@@ -65,9 +65,9 @@ const data = [
     categories: "code",
     tags: ["Figma", "Tailwind", "React"],
     image: IMG12,
-    title: "Linder Startup idea - Tinder merged with LinkedIn",
+    title: "Linder Startup idea - Tinder merged with LinkedIn ( Mobile Only )",
     github: "https://github.com/tracytratran/linder",
-    demo: "https://github.com/tracytratran/linder",
+    demo: "https://linderwebapp.netlify.app/",
   },
   {
     key: 2,
