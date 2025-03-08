@@ -29,7 +29,8 @@ const data = [
     tags: ["Figma"],
     image: IMG10,
     title: "MaxiZoo - Web Shop",
-    github: "https://www.figma.com/proto/2G0nRjjbvtFd6cQcSYLRrY/MaxiZoo?node-id=2-848&p=f&t=kYtTyXW4flYeS3Zh-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=4%3A14",
+    github:
+      "https://www.figma.com/proto/2G0nRjjbvtFd6cQcSYLRrY/MaxiZoo?node-id=2-848&p=f&t=kYtTyXW4flYeS3Zh-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=4%3A14",
     demo: "https://www.figma.com/proto/2G0nRjjbvtFd6cQcSYLRrY/MaxiZoo?node-id=2-848&p=f&t=kYtTyXW4flYeS3Zh-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=4%3A14",
   },
   {
@@ -38,8 +39,8 @@ const data = [
     tags: ["Figma"],
     image: IMG11,
     title: "Grundfos - Eacademy Redesign",
-    github: "https://www.figma.com/proto/a9lE5fFsqr9T0KCX21EiIz/Prototype",
-    demo: "https://www.figma.com/proto/a9lE5fFsqr9T0KCX21EiIz/Prototype",
+    github: "https://www.figma.com/proto/BHVMoDYG6TU6dLBVXws7Ml/Prototype-we-can-use?node-id=187-5579&p=f&t=MBwy0nDvyUDnZHKk-0&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=273%3A5526",
+    demo: "https://www.figma.com/proto/BHVMoDYG6TU6dLBVXws7Ml/Prototype-we-can-use?node-id=187-5579&p=f&t=MBwy0nDvyUDnZHKk-0&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=273%3A5526",
   },
   {
     key: 5,
