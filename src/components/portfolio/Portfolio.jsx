@@ -29,8 +29,8 @@ const data = [
     tags: ["Figma"],
     image: IMG10,
     title: "MaxiZoo - Web Shop",
-    github: "https://www.figma.com/proto/2G0nRjjbvtFd6cQcSYLRrY/MaxiZoo%2B",
-    demo: "https://www.figma.com/proto/2G0nRjjbvtFd6cQcSYLRrY/MaxiZoo%2B",
+    github: "https://www.figma.com/proto/2G0nRjjbvtFd6cQcSYLRrY/MaxiZoo?node-id=2-848&p=f&t=kYtTyXW4flYeS3Zh-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=4%3A14",
+    demo: "https://www.figma.com/proto/2G0nRjjbvtFd6cQcSYLRrY/MaxiZoo?node-id=2-848&p=f&t=kYtTyXW4flYeS3Zh-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=4%3A14",
   },
   {
     key: 11,
