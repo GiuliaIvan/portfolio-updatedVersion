@@ -116,10 +116,10 @@ const data = [
     key: 12,
     categories: "code",
     tags: [
-      "Figma",
       "B2B",
       "B2C",
       "User Research",
+      "Sketching",
       "Digital Concept Development",
       "Innovative solution",
       "Usability Testing",
@@ -157,7 +157,9 @@ const data = [
     key: 3,
     categories: ["code", "design", "content"],
     tags: [
+      "User Research",
       "Adobe XD",
+      "Adobe Illustrator",
       "HTML",
       "CSS",
       "JavaScript",
@@ -165,7 +167,6 @@ const data = [
       "Content creation",
       "Video editing",
       "Storytelling",
-      "Adobe Illustrator"
     ],
     image: IMG3,
     title: "Waves Web Magazine - student life in Denmark",
@@ -202,12 +203,7 @@ const data = [
   {
     key: 8,
     categories: "design",
-    tags: [
-      "Adobe XD",
-      "User Research",
-      "UX Thinking",
-      "Digital Concept",
-    ],
+    tags: ["Adobe XD", "User Research", "UX Thinking", "Digital Concept"],
     id: "hiddenButton",
     image: IMG8,
     title: "Finde - Grundfos Kollegiet Digital Assistant",
