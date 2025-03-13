@@ -17,7 +17,18 @@ const data = [
   {
     key: 1,
     categories: ["code", "design"],
-    tags: ["Adobe XD", "HTML5", "CSS3", "JavaScript"],
+    tags: [
+      "User-centered design",
+      "Adobe XD",
+      "Photoshop",
+      "Video Editing",
+      "Content Creation",
+      "Mobile-First",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Usability testing",
+    ],
     image: IMG1,
     title: "Café Her Og Der - a place defined by coziness & hygge",
     github: "https://github.com/GiuliaIvan/cafeHerOgDer",
@@ -26,7 +37,18 @@ const data = [
   {
     key: 10,
     categories: "design",
-    tags: ["Figma"],
+    tags: [
+      "B2B",
+      "B2C",
+      "Digital Concept Development",
+      "Usability Testing",
+      "Figma",
+      "Minimalist aesthetic",
+      "Design Thinking framework",
+      "User research",
+      "UX Thinking",
+      "Business Strategy",
+    ],
     image: IMG10,
     title: "MaxiZoo - Web Shop",
     github:
@@ -36,16 +58,35 @@ const data = [
   {
     key: 11,
     categories: "design",
-    tags: ["Figma"],
+    tags: [
+      "Business Strategy",
+      "User Research",
+      "UX Thinking",
+      "Strategic Mindset",
+      "Design Thinking",
+      "Figma",
+      "Digital Concept Development",
+      "Tailored content",
+      "Innovative solution",
+      "Information Architecture",
+    ],
     image: IMG11,
     title: "Grundfos - Eacademy Redesign",
-    github: "https://www.figma.com/proto/BHVMoDYG6TU6dLBVXws7Ml/Prototype-we-can-use?node-id=187-5579&p=f&t=MBwy0nDvyUDnZHKk-0&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=273%3A5526",
+    github:
+      "https://www.figma.com/proto/BHVMoDYG6TU6dLBVXws7Ml/Prototype-we-can-use?node-id=187-5579&p=f&t=MBwy0nDvyUDnZHKk-0&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=273%3A5526",
     demo: "https://www.figma.com/proto/BHVMoDYG6TU6dLBVXws7Ml/Prototype-we-can-use?node-id=187-5579&p=f&t=MBwy0nDvyUDnZHKk-0&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=273%3A5526",
   },
   {
     key: 5,
     categories: "design",
-    tags: ["Figma"],
+    tags: [
+      "B2B",
+      "Information Architecture",
+      "SaaS",
+      "User Research",
+      "UX Thinking",
+      "Figma",
+    ],
     image: IMG5,
     title: "PICit Dispatch view - UX/UI design (desktop only)",
     github:
@@ -55,7 +96,17 @@ const data = [
   {
     key: 6,
     categories: ["code", "design"],
-    tags: ["Figma", "HTML5", "CSS3", "JavaScript"],
+    tags: [
+      "Design Thinking approach",
+      "User Research",
+      "UX Thinking",
+      "Minimalist aesthetic",
+      "Figma",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "JSON",
+    ],
     image: IMG6,
     title: "CoroBeauty - cosmetologist website",
     github: "https://github.com/GiuliaIvan/CoroBeauty",
@@ -64,7 +115,18 @@ const data = [
   {
     key: 12,
     categories: "code",
-    tags: ["Figma", "Tailwind", "React"],
+    tags: [
+      "Figma",
+      "B2B",
+      "B2C",
+      "User Research",
+      "Digital Concept Development",
+      "Innovative solution",
+      "Usability Testing",
+      "Tailored content",
+      "Tailwind",
+      "React",
+    ],
     image: IMG12,
     title: "Linder Startup idea - Tinder merged with LinkedIn ( Mobile Only )",
     github: "https://github.com/tracytratran/linder",
@@ -73,7 +135,19 @@ const data = [
   {
     key: 2,
     categories: ["code", "design"],
-    tags: ["Figma", "HTML5", "CSS3", "JavaScript"],
+    tags: [
+      "Design Thinking",
+      "User Research",
+      "UX Thinking",
+      "Business Strategy",
+      "Content creation",
+      "Illustrations",
+      "Photoshop",
+      "Adobe XD",
+      "HTML",
+      "CSS",
+      "JavaScript",
+    ],
     image: IMG2,
     title: "Kromosom - a diversity cafe/bar, located in the center of Aarhus",
     github: "https://github.com/GiuliaIvan/kromosom",
@@ -84,11 +158,14 @@ const data = [
     categories: ["code", "design", "content"],
     tags: [
       "Adobe XD",
-      "HTML5",
-      "CSS3",
+      "HTML",
+      "CSS",
       "JavaScript",
       "PremierePro",
       "Content creation",
+      "Video editing",
+      "Storytelling",
+      "Adobe Illustrator"
     ],
     image: IMG3,
     title: "Waves Web Magazine - student life in Denmark",
@@ -98,7 +175,7 @@ const data = [
   {
     key: 4,
     categories: ["code", "design"],
-    tags: ["Figma", "React", "Firebase"],
+    tags: ["User Research", "Digital Concept", "Figma", "React", "Firebase"],
     image: IMG4,
     title: "Dorm8s - app design for dorms (mobile only)",
     github: "https://github.com/GiuliaIvan/dorm8s",
@@ -107,16 +184,16 @@ const data = [
   {
     key: 9,
     categories: "content",
-    tags: ["PremierePro"],
+    tags: ["PremierePro", "Content Creation", "Storytelling", "Video Editing"],
     image: IMG9,
-    title: "Content Creation - Youtube videos",
+    title: "Content Creation - YouTube videos",
     github: "https://youtube.com/@giuliaivan202",
     demo: "https://youtube.com/@giuliaivan202",
   },
   {
     key: 7,
     categories: "code",
-    tags: ["HTML5", "CSS3", "JavaScript", "JSON", "API", "Firebase"],
+    tags: ["HTML", "CSS", "JavaScript", "JSON", "API", "Firebase"],
     image: IMG7,
     title: "Personal JavaScript projects",
     github: "https://github.com/GiuliaIvan/JavaScript-projects",
@@ -125,7 +202,12 @@ const data = [
   {
     key: 8,
     categories: "design",
-    tags: ["Adobe XD"],
+    tags: [
+      "Adobe XD",
+      "User Research",
+      "UX Thinking",
+      "Digital Concept",
+    ],
     id: "hiddenButton",
     image: IMG8,
     title: "Finde - Grundfos Kollegiet Digital Assistant",
@@ -164,41 +246,43 @@ const Portfolio = () => {
       </div>
 
       <div className="container portfolio__container">
-        {filteredProjects.map(({ key, image, title, tags, categories, github, demo }) => (
-          <article key={key} className="portfolio__item">
-            <div className="portfolio__item-image">
-              <img src={image} alt={title} />
-            </div>
-            <h3>{title}</h3>
-            <div className="portfolio__tags">
-              {tags.map((tag, index) => (
-                <span key={index} className="portfolio__tag">
-                  #{tag}
-                </span>
-              ))}
-            </div>
-            <div className="portfolio__item-cta">
-              {categories.includes("code") && github && (
+        {filteredProjects.map(
+          ({ key, image, title, tags, categories, github, demo }) => (
+            <article key={key} className="portfolio__item">
+              <div className="portfolio__item-image">
+                <img src={image} alt={title} />
+              </div>
+              <h3>{title}</h3>
+              <div className="portfolio__tags">
+                {tags.map((tag, index) => (
+                  <span key={index} className="portfolio__tag">
+                    #{tag}
+                  </span>
+                ))}
+              </div>
+              <div className="portfolio__item-cta">
+                {categories.includes("code") && github && (
+                  <a
+                    href={github}
+                    className="btn"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    GitHub
+                  </a>
+                )}
                 <a
-                  href={github}
-                  className="btn"
+                  href={demo}
+                  className="btn btn-primary"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  GitHub
+                  Demo
                 </a>
-              )}
-              <a
-                href={demo}
-                className="btn btn-primary"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Demo
-              </a>
-            </div>
-          </article>
-        ))}
+              </div>
+            </article>
+          )
+        )}
       </div>
     </section>
   );

@@ -1,6 +1,6 @@
-import React from 'react'
-import './services.css'
-import {BiCheck} from 'react-icons/bi'
+import React from "react";
+import "./services.css";
+import { BiCheck } from "react-icons/bi";
 
 const Services = () => {
   return (
@@ -17,42 +17,42 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Visual Design and Branding</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Creating UX element interactions</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Design and Mockups of products</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Understanding of user-centered design principles</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
               <p>
-                Ability to translate wireframes and mockups into functional,
-                high-performance code
+                UX Thinking - customer journey mapping and user-centered design
               </p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Proficiency in design tools like Adobe XD, Figma</p>
+              <p>
+                User Research - analyze user needs and conduct usability testing
+              </p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Design and Mockups of products</p>
+              <p>Digital Concept Development</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>User Research and Persona Development</p>
+              <p>Prototyping - skills in Figma</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Information Architecture and Navigation Design</p>
+              <p>Information Architecture</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>
+                Business & Strategic Mindset - align solutions with business
+                goals and data insights
+              </p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Design Thinking</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Emerging Technologies - integrate AI, AR/VR</p>
             </li>
           </ul>
         </article>
@@ -66,33 +66,30 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Responsive Website Development</p>
+              <p>Responsive Development</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Frontend Framework Implementation (React, Lit)</p>
+              <p>Frontend Frameworks</p>
             </li>
 
             <li>
               <BiCheck className="service__list-icon" />
               <p>
-                Asynchronous request handling, partial page updates, and AJAX
+                Asynchronous Processing
               </p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Mobile-first design and development</p>
+              <p>Mobile-first Approach</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Git and GitHub</p>
+              <p>Wireframe to code</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>
-                Ability to work closely with designers, backend developers, and
-                product managers
-              </p>
+              <p>Cross-Team Collaboration</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
@@ -100,7 +97,7 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Website Performance Optimization</p>
+              <p>Performance Optimization</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
@@ -142,6 +139,6 @@ const Services = () => {
       </div>
     </section>
   );
-}
+};
 
-export default Services
+export default Services;
