@@ -57,14 +57,14 @@ const Experience = () => {
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>Wordpress</h4>
-                <small className="text-light">Basic</small>
+                <h4>Unity</h4>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>SCSS</h4>
+                <h4>C#</h4>
                 <small className="text-light">Basic</small>
               </div>
             </article>
@@ -73,13 +73,6 @@ const Experience = () => {
               <div>
                 <h4>C++</h4>
                 <small className="text-light">Basic</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>Tailwind</h4>
-                <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="experience__details">
@@ -99,14 +92,35 @@ const Experience = () => {
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>Express</h4>
+                <h4>Express js</h4>
                 <small className="text-light">Basic</small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>Vite</h4>
+                <h4>PostgreSQL</h4>
+                <small className="text-light">Basic</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Tailwind</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Wordpress</h4>
+                <small className="text-light">Basic</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>SCSS</h4>
                 <small className="text-light">Basic</small>
               </div>
             </article>
@@ -134,14 +148,7 @@ const Experience = () => {
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>Lightroom</h4>
-                <small className="text-light">Basic</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>Photoshop</h4>
+                <h4>DaVinci Resolve</h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
@@ -150,6 +157,20 @@ const Experience = () => {
               <div>
                 <h4>Adobe XD</h4>
                 <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Lightroom</h4>
+                <small className="text-light">Basic</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Photoshop</h4>
+                <small className="text-light">Basic</small>
               </div>
             </article>
             <article className="experience__details">
