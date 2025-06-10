@@ -1,12 +1,13 @@
-import React from 'react'
-import './nav.css'
-import {AiOutlineHome} from 'react-icons/ai'
-import {AiOutlineUser} from 'react-icons/ai'
-import {BiBook} from 'react-icons/bi'
-import {RiServiceLine} from 'react-icons/ri'
-import {BiMessageSquareDetail} from 'react-icons/bi'
-import { useState } from 'react'
-import { useEffect } from 'react'
+import React from "react";
+import "./nav.css";
+import { AiOutlineHome } from "react-icons/ai";
+import { AiOutlineUser } from "react-icons/ai";
+import { BiBook } from "react-icons/bi";
+import { RiServiceLine } from "react-icons/ri";
+import { FaRegFolderOpen } from "react-icons/fa";
+import { BiMessageSquareDetail } from "react-icons/bi";
+import { useState } from "react";
+import { useEffect } from "react";
 
 const Nav = () => {
   const [activeNav, setActiveNav] = useState("#");
@@ -21,15 +22,18 @@ const Nav = () => {
         const sectionTop = section.offsetTop;
         const sectionHeight = section.clientHeight;
 
-        if (scrollY >= sectionTop - sectionHeight / 3) {
+        if (
+          scrollY >= sectionTop - 50 &&
+          scrollY < sectionTop + sectionHeight - 50
+        ) {
           currentSection = `#${section.id}`;
         }
       });
 
       // 🔹 Keep #services active while scrolling through #portfolio
-      if (currentSection === "#portfolio" || currentSection === "#services") {
-        currentSection = "#services";
-      }
+      // if (currentSection === "#portfolio" || currentSection === "#services") {
+      //   currentSection = "#services";
+      // }
 
       // 🔹 Ensure #contact takes priority when reached
       const contactSection = document.querySelector("#contact");
@@ -78,6 +82,13 @@ const Nav = () => {
         <RiServiceLine />
       </a>
       <a
+        href="#portfolio"
+        onClick={() => setActiveNav("#portfolio")}
+        className={activeNav === "#portfolio" ? "active" : ""}
+      >
+        <FaRegFolderOpen />
+      </a>
+      <a
         href="#contact"
         onClick={() => setActiveNav("#contact")}
         className={activeNav === "#contact" ? "active" : ""}
@@ -88,4 +99,4 @@ const Nav = () => {
   );
 };
 
-export default Nav
+export default Nav;
