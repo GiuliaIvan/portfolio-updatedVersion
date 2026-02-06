@@ -11,48 +11,44 @@ const Services = () => {
       <div className="container services__container">
         <article className="service">
           <div className="service__head">
-            <h3>UI/UX Design</h3>
+            <h3>UX & Product Design</h3>
           </div>
 
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
               <p>
-                UX Thinking - customer journey mapping and user-centered design
+                Designing clear user journeys and flows based on real user needs
               </p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
               <p>
-                User Research - analyze user needs and conduct usability testing
+                Structuring information to reduce complexity and improve
+                usability
               </p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Digital Concept Development</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Prototyping - skills in Figma</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Information Architecture</p>
+              <p>Creating wireframes and high-fidelity prototypes in Figma</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
               <p>
-                Business & Strategic Mindset - align solutions with business
-                goals and data insights
+                Conducting usability testing and iterating based on feedback
               </p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Design Thinking</p>
+              <p>
+                Aligning design decisions with business goals and constraints
+              </p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Emerging Technologies - integrate AI, AR/VR</p>
+              <p>
+                Powering productivity with emerging technologies
+              </p>
             </li>
           </ul>
         </article>
@@ -66,42 +62,24 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Responsive Development</p>
+              <p>Building responsive, mobile-first interfaces</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Frontend Frameworks</p>
+              <p>Translating designs into clean, maintainable frontend code</p>
             </li>
 
             <li>
               <BiCheck className="service__list-icon" />
-              <p>
-                Asynchronous Processing
-              </p>
+              <p>Integrating UI logic with asynchronous data flows</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Mobile-first Approach</p>
+              <p>Optimizing performance and accessibility</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Wireframe to code</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Cross-Team Collaboration</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>UI Design Integration</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Performance Optimization</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Compatibility Testing</p>
+              <p>Collaborating closely with designers and backend developers</p>
             </li>
           </ul>
         </article>
@@ -115,24 +93,16 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Video Editing</p>
+              <p>UX copywriting for interfaces</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Copywriting </p>
+              <p>Content structuring and clarity</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p> Content Editing</p>
+              <p>Visual storytelling for digital products</p>
             </li>
-            {/* <li>
-              <BiCheck className="service__list-icon" />
-              <p>I position your company brand</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Design and mockups of products</p>
-            </li> */}
           </ul>
         </article>
         {/* END OF Content Creation */}

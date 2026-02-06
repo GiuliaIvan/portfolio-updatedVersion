@@ -38,17 +38,23 @@ const About = () => {
           </div>
 
           <p>
-            {/* I'm a Frontend developer and Designer who helps people materialize their dream into a
-            beautiful, hands-on prototype. Creative, insightful and passionate
-            about writing, videography and volley. */}
-            Beyond the technical side,{" "}
-            <strong style={{ color: "white" }}>teamwork</strong> and{" "}
-            <strong style={{ color: "white" }}>creative problem-solving</strong>{" "}
-            are my strengths. Whether it's brainstorming concepts, refining
-            designs, or finding the perfect balance between aesthetics and
-            functionality, I believe great ideas are shaped through{" "}
-            <strong style={{ color: "white" }}>collaboration.</strong> Maybe
-            that’s why I love volleyball so much hm...<strong style={{ color: "white" }}>🤔🏐</strong>
+            I'm a UX-focused Frontend Developer who enjoys working at the
+            intersection of <strong style={{ color: "white" }}>design</strong>,{" "}
+            <strong style={{ color: "white" }}>technology</strong> and{" "}
+            <strong style={{ color: "white" }}>business</strong>.
+            <br />
+            <br />
+            I'm strongest when collaborating closely with designers, developers
+            and stakeholders to turn complex requirements into intuitive user
+            flows and scalable interfaces. I care deeply about usability,
+            information architecture and making sure{" "}
+            <strong style={{ color: "white" }}>
+              design decisions are grounded in real user needs
+            </strong>
+            .{/* <br /><br /> */}
+            {/* I approach projects with a balance of analytical thinking and
+            creativity - from research and ideation to prototyping and
+            implementation. Outside of work, teamwork also shows up in my love for volleyball. */}
           </p>
 
           <a href="#contact" className="btn btn-primary">
