@@ -240,6 +240,8 @@ const data = [
     ],
     image: IMG2,
     title: "Kromosom - a diversity cafe/bar, located in the center of Aarhus",
+    description: "Designing a digital presence for an inclusive café-bar in Aarhus.",
+    caseStudy: "/projects/kromosom",
     github: "https://github.com/GiuliaIvan/kromosom",
     demo: "https://kromosom.netlify.app/",
   },
