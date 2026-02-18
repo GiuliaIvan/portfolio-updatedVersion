@@ -14,6 +14,7 @@ import LinderStudy from './components/casestudy/LinderStudy'
 import CoroBeautyStudy from './components/casestudy/CoroBeautyStudy'
 import KromosomStudy from './components/casestudy/KromosomStudy'
 import FindeStudy from './components/casestudy/FindeStudy'
+import PICitStudy from './components/casestudy/PICitStudy'
 
 const HomePage = () => {
   return (
@@ -40,6 +41,7 @@ const App = () => {
       <Route path="/projects/corobeauty" element={<CoroBeautyStudy />} />
       <Route path="/projects/kromosom" element={<KromosomStudy />} />
       <Route path="/projects/finde" element={<FindeStudy />} />
+      <Route path="/projects/picit" element={<PICitStudy />} />
     </Routes>
   )
 }

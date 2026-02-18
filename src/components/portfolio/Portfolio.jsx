@@ -179,7 +179,9 @@ const data = [
       "Figma",
     ],
     image: IMG5,
-    title: "PICit Dispatch view - UX/UI design (desktop only)",
+    title: "PICit Dispatch view",
+    description: "Redesigning a complex dispatch interface for logistics professionals.",
+    caseStudy: "/projects/picit",
     github:
       "https://xd.adobe.com/view/5fe1536e-ce8d-4ecc-836d-7f124c3a441f-0ab2/",
     demo: "https://xd.adobe.com/view/5fe1536e-ce8d-4ecc-836d-7f124c3a441f-0ab2/",
