@@ -20,6 +20,8 @@ const data = [
   {
     key: 11,
     categories: "design",
+    subtitle: "Redesigning the 'Learn' Platform for Installers & Engineers",
+    description: "Improving clarity, personalization, and engagement in a complex learning ecosystem.",
     tags: [
       "Business Strategy",
       "User Research",
@@ -296,7 +298,7 @@ const Portfolio = () => {
 
       <div className="container portfolio__container">
         {filteredProjects.map(
-          ({ key, image, title, tags, categories, github, demo, caseStudy, id }) => (
+          ({ key, image, title, subtitle, description, tags, categories, github, demo, caseStudy, id }) => (
             <article
               key={key}
               className={`portfolio__item${caseStudy ? ' portfolio__item--clickable' : ''}`}
@@ -306,12 +308,14 @@ const Portfolio = () => {
                 <img src={image} alt={title} />
               </div>
               <h3>{title}</h3>
+              {/* <h4 className="portfolio__item-subtitle">{subtitle}</h4> */}
+              <p className="portfolio__item-description">{description}</p>
               <div className="portfolio__tags">
-                {tags.map((tag, index) => (
+                {/* {tags.map((tag, index) => (
                   <span key={index} className="portfolio__tag">
                     #{tag}
                   </span>
-                ))}
+                ))} */}
               </div>
               <div className="portfolio__item-cta">
                 {categories.includes("code") && github && (
