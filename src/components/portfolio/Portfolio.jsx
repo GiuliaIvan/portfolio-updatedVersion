@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import "./portfolio.css";
 import IMG1 from "../../assets/portfolio7.jpg";
 import IMG2 from "../../assets/portfolio8.jpg";
@@ -33,6 +34,7 @@ const data = [
     ],
     image: IMG11,
     title: "Grundfos - Eacademy Redesign",
+    caseStudy: "/projects/grundfos",
     github:
       "https://www.figma.com/proto/BHVMoDYG6TU6dLBVXws7Ml/Prototype-we-can-use?node-id=187-5579&p=f&t=MBwy0nDvyUDnZHKk-0&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=273%3A5526",
     demo: "https://www.figma.com/proto/BHVMoDYG6TU6dLBVXws7Ml/Prototype-we-can-use?node-id=187-5579&p=f&t=MBwy0nDvyUDnZHKk-0&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=273%3A5526",
@@ -115,7 +117,7 @@ const data = [
       "Usability testing",
     ],
     image: IMG1,
-    title: "Café Her Og Der - a place defined by coziness & hygge",
+    title: "Caf\u00e9 Her Og Der - a place defined by coziness & hygge",
     github: "https://github.com/GiuliaIvan/cafeHerOgDer",
     demo: "https://giuliaivan.github.io/cafeHerOgDer/",
   },
@@ -258,12 +260,19 @@ const data = [
 ];
 
 const Portfolio = () => {
+  const navigate = useNavigate();
   const [selectedCategory, setSelectedCategory] = useState("all");
 
   const filteredProjects =
     selectedCategory === "all"
       ? data
       : data.filter((project) => project.categories.includes(selectedCategory));
+
+  const handleCardClick = (project) => {
+    if (project.caseStudy) {
+      navigate(project.caseStudy);
+    }
+  };
 
   return (
     <section id="portfolio">
@@ -287,8 +296,12 @@ const Portfolio = () => {
 
       <div className="container portfolio__container">
         {filteredProjects.map(
-          ({ key, image, title, tags, categories, github, demo }) => (
-            <article key={key} className="portfolio__item">
+          ({ key, image, title, tags, categories, github, demo, caseStudy, id }) => (
+            <article
+              key={key}
+              className={`portfolio__item${caseStudy ? ' portfolio__item--clickable' : ''}`}
+              onClick={() => caseStudy && handleCardClick({ caseStudy })}
+            >
               <div className="portfolio__item-image">
                 <img src={image} alt={title} />
               </div>
@@ -307,17 +320,31 @@ const Portfolio = () => {
                     className="btn"
                     target="_blank"
                     rel="noreferrer"
+                    onClick={(e) => e.stopPropagation()}
                   >
                     GitHub
                   </a>
                 )}
-                <a
-                  href={demo}
+                {caseStudy && (
+                  <a
+                  href={() => caseStudy}
                   className="btn btn-primary"
                   target="_blank"
                   rel="noreferrer"
+                  onClick={() => caseStudy && handleCardClick({ caseStudy })}
                 >
-                  Demo
+                  View Project
+                </a>
+                )}
+                <a
+                  href={demo}
+                  className="btn"
+                  target="_blank"
+                  rel="noreferrer"
+                  id={id}
+                  onClick={(e) => e.stopPropagation()}
+                >
+                  Prototype
                 </a>
               </div>
             </article>

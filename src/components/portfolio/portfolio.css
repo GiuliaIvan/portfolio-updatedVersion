@@ -12,6 +12,14 @@
   transition: var(--transition);
 }
 
+.portfolio__item--clickable {
+  cursor: pointer;
+}
+
+.portfolio__item--clickable:hover {
+  border-color: var(--color-primary-variant);
+}
+
 /* .portfolio__item:hover {
   border-color: var(--color-primary-variant);
   background: transparent;
