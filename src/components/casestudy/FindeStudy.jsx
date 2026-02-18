@@ -253,21 +253,27 @@ const FindeStudy = () => {
       {/* SECTION 5 - TESTING & ITERATION */}
       <section className="cs-section cs-animate">
         <div className="cs-section__inner">
-          <h2 className="cs-section__heading">Testing &amp; Iteration</h2>
-          <p className="cs-section__text">Through usability testing, we discovered:</p>
-          <ul className="cs-list">
-            <li>Users needed clearer navigation hierarchy</li>
-            <li>Booking features required better placement</li>
-            <li>Social features needed to feel optional, not forced</li>
-            <li>Too much white space created friction</li>
-          </ul>
-          <p className="cs-section__text">Adjustments included:</p>
-          <ul className="cs-list">
-            <li>Reorganizing feature layout</li>
-            <li>Simplifying navigation</li>
-            <li>Clarifying microcopy</li>
-            <li>Improving flow between screens</li>
-          </ul>
+          <h2 className="cs-section__heading">Testing & Iteration</h2>
+          <div className="cs-section__text-container-grid cs-solution-block">
+            <div className="cs-section__text-container">
+              <p className="cs-section__text">Through usability testing, we discovered:</p>
+              <ul className="cs-list">
+                <li>Users needed clearer navigation hierarchy</li>
+                <li>Booking features required better placement</li>
+                <li>Social features needed to feel optional, not forced</li>
+                <li>Too much white space created friction</li>
+              </ul>
+            </div>
+            <div className="cs-section__text-container">
+              <p className="cs-section__text">Adjustments included:</p>
+              <ul className="cs-list">
+                <li>Reorganizing feature layout</li>
+                <li>Simplifying navigation</li>
+                <li>Clarifying microcopy</li>
+                <li>Improving flow between screens</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </section>
 
