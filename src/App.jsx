@@ -10,6 +10,7 @@ import Testimonials from './components/testimonials/Testimonials'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
 import GrundfosStudy from './components/casestudy/GrundfosStudy'
+import LinderStudy from './components/casestudy/LinderStudy'
 
 const HomePage = () => {
   return (
@@ -32,6 +33,7 @@ const App = () => {
     <Routes>
       <Route path="/" element={<HomePage />} />
       <Route path="/projects/grundfos" element={<GrundfosStudy />} />
+      <Route path="/projects/linder" element={<LinderStudy />} />
     </Routes>
   )
 }

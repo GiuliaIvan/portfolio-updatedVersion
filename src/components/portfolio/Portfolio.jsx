@@ -57,7 +57,9 @@ const data = [
       "React",
     ],
     image: IMG12,
-    title: "Linder Startup idea - Tinder merged with LinkedIn ( Mobile Only )",
+    title: "Linder",
+    description: "Connecting founders and collaborators through a swipe-based professional matching experience.",
+    caseStudy: "/projects/linder",
     github: "https://github.com/tracytratran/linder",
     demo: "https://linderwebapp.netlify.app/",
   },
@@ -318,17 +320,7 @@ const Portfolio = () => {
                 ))} */}
               </div>
               <div className="portfolio__item-cta">
-                {categories.includes("code") && github && (
-                  <a
-                    href={github}
-                    className="btn"
-                    target="_blank"
-                    rel="noreferrer"
-                    onClick={(e) => e.stopPropagation()}
-                  >
-                    GitHub
-                  </a>
-                )}
+                
                 {caseStudy && (
                   <a
                   href={() => caseStudy}
@@ -350,6 +342,17 @@ const Portfolio = () => {
                 >
                   Prototype
                 </a>
+                {categories.includes("code") && github && (
+                  <a
+                    href={github}
+                    className="btn"
+                    target="_blank"
+                    rel="noreferrer"
+                    onClick={(e) => e.stopPropagation()}
+                  >
+                    GitHub
+                  </a>
+                )}
               </div>
             </article>
           )
