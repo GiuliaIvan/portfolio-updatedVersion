@@ -392,6 +392,67 @@
   font-family: 'Poppins', sans-serif;
 }
 
+/* ============ PERSONA CARD ============ */
+.cs-persona-card {
+  background: var(--color-bg-variant);
+  border-radius: 1.25rem;
+  padding: 2.25rem;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  margin-top: 2.5rem;
+}
+
+.cs-persona-card__header {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.cs-persona-card__name {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--color-white);
+  margin-bottom: 0.2rem;
+}
+
+.cs-persona-card__label {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-primary);
+  font-weight: 500;
+}
+
+.cs-persona-card__body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.cs-persona-card__subtitle {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color-white);
+  margin-bottom: 0.75rem;
+}
+
+/* ============ KEYWORD ROW ============ */
+.cs-keyword-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 0.5rem;
+}
+
+.cs-keyword {
+  padding: 0.5rem 1.25rem;
+  border-radius: 2rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--color-white);
+  background: rgba(77, 181, 255, 0.08);
+  border: 1px solid rgba(77, 181, 255, 0.15);
+}
+
 /* ============ ANIMATIONS ============ */
 .cs-animate {
   opacity: 0;
@@ -433,6 +494,11 @@
 
   .cs-contribution-list {
     grid-template-columns: 1fr;
+  }
+
+  .cs-persona-card__body {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
   }
 }
 

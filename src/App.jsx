@@ -11,6 +11,7 @@ import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
 import GrundfosStudy from './components/casestudy/GrundfosStudy'
 import LinderStudy from './components/casestudy/LinderStudy'
+import CoroBeautyStudy from './components/casestudy/CoroBeautyStudy'
 
 const HomePage = () => {
   return (
@@ -34,6 +35,7 @@ const App = () => {
       <Route path="/" element={<HomePage />} />
       <Route path="/projects/grundfos" element={<GrundfosStudy />} />
       <Route path="/projects/linder" element={<LinderStudy />} />
+      <Route path="/projects/corobeauty" element={<CoroBeautyStudy />} />
     </Routes>
   )
 }

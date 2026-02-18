@@ -162,6 +162,8 @@ const data = [
     ],
     image: IMG6,
     title: "CoroBeauty - cosmetologist website",
+    description: "Designing a digital presence for a local cosmetology salon.",
+    caseStudy: "/projects/corobeauty",
     github: "https://github.com/GiuliaIvan/CoroBeauty",
     demo: "https://giuliaivan.github.io/CoroBeauty/",
   },
