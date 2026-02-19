@@ -2,6 +2,9 @@ import React, { useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import './grundfos-study.css'
 import heroImage from '../../assets/portfolio8.jpg'
+import homeKromosom from '../../assets/homeKromosom.png'
+import cafeKromosom from '../../assets/cafeKromosom.png'
+import aboutKromosom from '../../assets/aboutKromosom.png'
 
 const KromosomStudy = () => {
   const navigate = useNavigate()
@@ -178,7 +181,7 @@ const KromosomStudy = () => {
           <p className="cs-section__text">
             The aesthetic needed to balance community warmth with visual boldness.
           </p>
-          <div className="cs-solution-block__image" style={{ marginTop: '2rem' }}>
+          {/* <div className="cs-solution-block__image" style={{ marginTop: '2rem' }}>
             <div className="cs-image-placeholder">
               <span>Moodboard</span>
             </div>
@@ -188,7 +191,7 @@ const KromosomStudy = () => {
             <div className="cs-image-placeholder">
               <span>Logo &amp; Iconography</span>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
 
@@ -209,51 +212,7 @@ const KromosomStudy = () => {
               </p>
             </div>
             <div className="cs-solution-block__image">
-              <div className="cs-image-placeholder">
-                <span>Homepage Screenshot</span>
-              </div>
-            </div>
-          </div>
-
-          {/* Events & Community */}
-          <div className="cs-solution-block cs-solution-block--reverse cs-animate">
-            <div className="cs-solution-block__text">
-              <h3 className="cs-solution-block__title">Events &amp; Community</h3>
-              <p className="cs-section__text">
-                Events are central to Kromosom's identity.
-              </p>
-              <p className="cs-section__text">The website:</p>
-              <ul className="cs-list">
-                <li>Clearly presents upcoming events</li>
-                <li>Emphasizes community participation</li>
-                <li>Maintains playful visual tone</li>
-              </ul>
-            </div>
-            <div className="cs-solution-block__image">
-              <div className="cs-image-placeholder">
-                <span>Events Page Screenshot</span>
-              </div>
-            </div>
-          </div>
-
-          {/* Café vs Bar Identity */}
-          <div className="cs-solution-block cs-animate">
-            <div className="cs-solution-block__text">
-              <h3 className="cs-solution-block__title">Caf&eacute; vs Bar Identity</h3>
-              <p className="cs-section__text">
-                Kromosom operates as a study caf&eacute; during the day and a bar at night.
-              </p>
-              <p className="cs-section__text">We reflected this dual identity through:</p>
-              <ul className="cs-list">
-                <li>Separate menu sections</li>
-                <li>Visual differentiation</li>
-                <li>Interactive playlist elements</li>
-              </ul>
-            </div>
-            <div className="cs-solution-block__image">
-              <div className="cs-image-placeholder">
-                <span>Caf&eacute; / Bar Split Screenshot</span>
-              </div>
+              <img className='cs-image-placeholder' src={homeKromosom} alt="Onboarding screen" />
             </div>
           </div>
 
@@ -273,14 +232,52 @@ const KromosomStudy = () => {
               </p>
             </div>
             <div className="cs-solution-block__image">
+              <img className='cs-image-placeholder' src={aboutKromosom} alt="Onboarding screen" />
+            </div>
+          </div>
+
+          {/* Events & Community */}
+          {/* <div className="cs-solution-block cs-solution-block--reverse cs-animate">
+            <div className="cs-solution-block__text">
+              <h3 className="cs-solution-block__title">Events &amp; Community</h3>
+              <p className="cs-section__text">
+                Events are central to Kromosom's identity.
+              </p>
+              <p className="cs-section__text">The website:</p>
+              <ul className="cs-list">
+                <li>Clearly presents upcoming events</li>
+                <li>Emphasizes community participation</li>
+                <li>Maintains playful visual tone</li>
+              </ul>
+            </div>
+            <div className="cs-solution-block__image">
               <div className="cs-image-placeholder">
-                <span>About Page Screenshot</span>
+                <span>Events Page Screenshot</span>
               </div>
+            </div>
+          </div> */}
+
+          {/* Café vs Bar Identity */}
+          <div className="cs-solution-block cs-animate">
+            <div className="cs-solution-block__text">
+              <h3 className="cs-solution-block__title">Caf&eacute; vs Bar Identity</h3>
+              <p className="cs-section__text">
+                Kromosom operates as a study caf&eacute; during the day and a bar at night.
+              </p>
+              <p className="cs-section__text">We reflected this dual identity through:</p>
+              <ul className="cs-list">
+                <li>Separate menu sections</li>
+                <li>Visual differentiation</li>
+                <li>Interactive playlist elements</li>
+              </ul>
+            </div>
+            <div className="cs-solution-block__image">
+              <img className='cs-image-placeholder' src={cafeKromosom} alt="Onboarding screen" />
             </div>
           </div>
 
           {/* Multilingual Accessibility */}
-          <div className="cs-solution-block cs-animate">
+          {/* <div className="cs-solution-block cs-animate">
             <div className="cs-solution-block__text">
               <h3 className="cs-solution-block__title">Multilingual Accessibility</h3>
               <p className="cs-section__text">The site supports both Danish and English.</p>
@@ -296,7 +293,7 @@ const KromosomStudy = () => {
                 <span>Language Toggle</span>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
 
