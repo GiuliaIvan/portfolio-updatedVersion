@@ -1,15 +1,34 @@
 {
   "files": {
-    "main.css": "/portfolio-updatedVersion/static/css/main.6f13f16a.css",
-    "main.js": "/portfolio-updatedVersion/static/js/main.180da21f.js",
+    "main.css": "/portfolio-updatedVersion/static/css/main.20fb55e4.css",
+    "main.js": "/portfolio-updatedVersion/static/js/main.0ef82e95.js",
     "static/media/portfolio8.jpg": "/portfolio-updatedVersion/static/media/portfolio8.43b7cc956826a884544e.jpg",
+    "static/media/galleryCoroB.png": "/portfolio-updatedVersion/static/media/galleryCoroB.63ae4347611bd1348bb1.png",
     "static/media/portfolio14.png": "/portfolio-updatedVersion/static/media/portfolio14.718bae570adf911a229d.png",
+    "static/media/heroCoroB.png": "/portfolio-updatedVersion/static/media/heroCoroB.ce81090bdf3d54f9ac47.png",
     "static/media/yt.png": "/portfolio-updatedVersion/static/media/yt.c90517cec9a01b955c2a.png",
+    "static/media/coursePage.png": "/portfolio-updatedVersion/static/media/coursePage.a549d210fbaf5531ddd1.png",
     "static/media/portfolio11.jpg": "/portfolio-updatedVersion/static/media/portfolio11.a1346a57a4f0805963ea.jpg",
+    "static/media/courseDetails2.png": "/portfolio-updatedVersion/static/media/courseDetails2.0bd725c9b64ae215214c.png",
+    "static/media/swipeCardBack-Linder.png": "/portfolio-updatedVersion/static/media/swipeCardBack-Linder.1aa90af72d7fff37c0ee.png",
     "static/media/avatar2.png": "/portfolio-updatedVersion/static/media/avatar2.39da70e39478f3684418.png",
+    "static/media/swipeCard-Linder.png": "/portfolio-updatedVersion/static/media/swipeCard-Linder.52e6f0ef29d87ffd30f0.png",
+    "static/media/courseDetails1.png": "/portfolio-updatedVersion/static/media/courseDetails1.b004b1540a2b827fbd84.png",
+    "static/media/profileCoroB.png": "/portfolio-updatedVersion/static/media/profileCoroB.1dca68dfd617212819e8.png",
     "static/media/portfolio12.png": "/portfolio-updatedVersion/static/media/portfolio12.607cafe3abff5fabc929.png",
+    "static/media/styleTileCoroB.jpeg": "/portfolio-updatedVersion/static/media/styleTileCoroB.74f8b1023a6962fdd0dd.jpeg",
+    "static/media/testimonialsCoroB.png": "/portfolio-updatedVersion/static/media/testimonialsCoroB.ad680071a1a6b32be20c.png",
     "static/media/portfolio9.png": "/portfolio-updatedVersion/static/media/portfolio9.297ce0bfaeca3fbd1000.png",
     "static/media/PostgreSQL.png": "/portfolio-updatedVersion/static/media/PostgreSQL.b256b9cb665574b26097.png",
+    "static/media/onboardingScreen-Linder.png": "/portfolio-updatedVersion/static/media/onboardingScreen-Linder.abe96712a9a2d1e4dc96.png",
+    "static/media/personaCoroB.jpeg": "/portfolio-updatedVersion/static/media/personaCoroB.82e6327eb904947555d0.jpeg",
+    "static/media/servicesCoroB.png": "/portfolio-updatedVersion/static/media/servicesCoroB.cefe863dcd1028cadeb1.png",
+    "static/media/moodboardCoroB.jpeg": "/portfolio-updatedVersion/static/media/moodboardCoroB.5a58b3f75be5e9c28c6c.jpeg",
+    "static/media/dashboard.png": "/portfolio-updatedVersion/static/media/dashboard.5c0f91f6e00f6836c84c.png",
+    "static/media/discountsCoroB.png": "/portfolio-updatedVersion/static/media/discountsCoroB.e57280b71c29bf7c0575.png",
+    "static/media/personalizedOnboarding.png": "/portfolio-updatedVersion/static/media/personalizedOnboarding.dfcc08956ec9a3ae056d.png",
+    "static/media/quiz2.png": "/portfolio-updatedVersion/static/media/quiz2.bd116fa26a39a3668cce.png",
+    "static/media/quiz1.png": "/portfolio-updatedVersion/static/media/quiz1.4dc0fb2a113c4a8ea65e.png",
     "static/media/FoT.png": "/portfolio-updatedVersion/static/media/FoT.6da8d6ce8a4ddbcaa4f9.png",
     "static/media/me.png": "/portfolio-updatedVersion/static/media/me.45f2929f7361e664e310.png",
     "static/media/linder.png": "/portfolio-updatedVersion/static/media/linder.85c955dbba53f6b5e954.png",
@@ -22,11 +41,11 @@
     "static/media/grundfos.png": "/portfolio-updatedVersion/static/media/grundfos.959bfea15f3e05783a70.png",
     "static/media/avatar1.png": "/portfolio-updatedVersion/static/media/avatar1.b89005eab6e67af32337.png",
     "index.html": "/portfolio-updatedVersion/index.html",
-    "main.6f13f16a.css.map": "/portfolio-updatedVersion/static/css/main.6f13f16a.css.map",
-    "main.180da21f.js.map": "/portfolio-updatedVersion/static/js/main.180da21f.js.map"
+    "main.20fb55e4.css.map": "/portfolio-updatedVersion/static/css/main.20fb55e4.css.map",
+    "main.0ef82e95.js.map": "/portfolio-updatedVersion/static/js/main.0ef82e95.js.map"
   },
   "entrypoints": [
-    "static/css/main.6f13f16a.css",
-    "static/js/main.180da21f.js"
+    "static/css/main.20fb55e4.css",
+    "static/js/main.0ef82e95.js"
   ]
 }
