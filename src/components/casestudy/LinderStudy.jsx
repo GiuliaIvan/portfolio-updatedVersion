@@ -171,7 +171,7 @@ const LinderStudy = () => {
               </p>
             </div>
             <div className="cs-solution-block__image">
-              <img className='cs-image-placeholder cs-image-placeholder-aspect-ration' src={image1} alt="Onboarding screen" />
+              <img className='cs-image-placeholder cs-image-placeholder-aspect-ration' style={{ objectFit: 'contain' }} src={image1} alt="Onboarding screen" />
             </div>
           </div>
 
@@ -193,7 +193,7 @@ const LinderStudy = () => {
               </p>
             </div>
             <div className="cs-solution-block__image">
-              <img className='cs-image-placeholder cs-image-placeholder-aspect-ration' src={image2} alt="Onboarding screen" />
+              <img className='cs-image-placeholder cs-image-placeholder-aspect-ration' style={{ objectFit: 'contain' }} src={image2} alt="Onboarding screen" />
             </div>
           </div>
 
@@ -212,7 +212,7 @@ const LinderStudy = () => {
               </ul>
             </div>
             <div className="cs-solution-block__image">
-              <img className='cs-image-placeholder cs-image-placeholder-aspect-ration' src={image3} alt="Onboarding screen" />
+              <img className='cs-image-placeholder cs-image-placeholder-aspect-ration' style={{ objectFit: 'contain' }} src={image3} alt="Onboarding screen" />
             </div>
           </div>
         </div>

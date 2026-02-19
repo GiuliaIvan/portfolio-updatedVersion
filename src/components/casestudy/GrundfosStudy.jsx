@@ -230,7 +230,7 @@ const GrundfosStudy = () => {
                 <li>Immediate feedback</li>
               </ul>
             </div>
-            <div className="cs-solution-block__image">
+            <div className="cs-solution-block__image" style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
               <img className='cs-image-placeholder' src={image4} alt="Onboarding screen" />
               <img className='cs-image-placeholder' src={image5} alt="Onboarding screen" />
             </div>

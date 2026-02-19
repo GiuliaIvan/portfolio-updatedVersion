@@ -153,9 +153,9 @@ const CoroBeautyStudy = () => {
             </div>
           </div>
 
-          <div className="cs-solution-block__image" style={{ marginTop: '2rem' }}>
+          {/* <div className="cs-solution-block__image" style={{ marginTop: '2rem' }}>
            <img className='cs-image-placeholder cs-image-placeholder-aspect-ratio' src={personaCard} alt="Persona card" />
-          </div>
+          </div> */}
         </div>
       </section>
 

@@ -2,6 +2,9 @@ import React, { useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import './grundfos-study.css'
 import heroImage from '../../assets/portfolio11.jpg'
+import filteringSection from '../../assets/filteringPIC.png'
+import beforePICit from '../../assets/beforePICit.png'
+import afterPICit from '../../assets/afterPICit.png'
 
 const PICitStudy = () => {
   const navigate = useNavigate()
@@ -179,12 +182,10 @@ const PICitStudy = () => {
           <h2 className="cs-section__heading">The Solution</h2>
 
           {/* 1. Navigation Redesign */}
-          <div className="cs-solution-block cs-animate">
+          <div className="cs-solution-block cs-solution-block--reverse cs-animate">
             <div className="cs-solution-block__text">
               <h3 className="cs-solution-block__title">Navigation Redesign</h3>
-              <p className="cs-section__text">
-                The previous navigation was top-heavy and underutilized.
-              </p>
+              <p className="cs-section__text">The previous navigation was top-heavy and underutilized.</p>
               <p className="cs-section__text">Solution:</p>
               <ul className="cs-list">
                 <li>Introduced left sidebar navigation</li>
@@ -192,19 +193,27 @@ const PICitStudy = () => {
                 <li>Moved rarely used buttons (Validate, Send mail, Refresh) into sidebar</li>
                 <li>Increased working space for scheduling table</li>
               </ul>
+
+              <h3 className="cs-solution-block__title">Jobs Redesign</h3>
+              <p className="cs-section__text">The original jobs table looked like a compressed spreadsheet.</p>
+              <p className="cs-section__text">Improvements:</p>
+              <ul className="cs-list">
+                <li>Alternating row colors</li>
+                <li>Increased spacing</li>
+                <li>Clearer typography</li>
+                <li>Horizontal scrolling instead of squeezing columns</li>
+              </ul>
             </div>
-            <div className="cs-solution-block__image">
-              <div className="cs-image-placeholder">
-                <span>Before Navigation</span>
-              </div>
-              <div className="cs-image-placeholder">
-                <span>After Navigation</span>
-              </div>
+            <div className="cs-solution-block__image" style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
+              <img className='cs-image-placeholder' src={beforePICit} alt="Onboarding screen" />
+              <span style={{ fontSize: '0.9rem', color: 'var(--color-light)', fontWeight: '400' }}>Before</span>
+              <img className='cs-image-placeholder' src={afterPICit} alt="Onboarding screen" />
+              <span style={{ fontSize: '0.9rem', color: 'var(--color-light)', fontWeight: '400' }}>After</span>
             </div>
           </div>
 
           {/* 2. Jobs Table Redesign */}
-          <div className="cs-solution-block cs-solution-block--reverse cs-animate">
+          {/* <div className="cs-solution-block cs-solution-block--reverse cs-animate">
             <div className="cs-solution-block__text">
               <h3 className="cs-solution-block__title">Jobs Table Redesign</h3>
               <p className="cs-section__text">
@@ -233,10 +242,10 @@ const PICitStudy = () => {
                 <span>After Jobs Table</span>
               </div>
             </div>
-          </div>
+          </div> */}
 
           {/* 3. Job Cards Redesign */}
-          <div className="cs-solution-block cs-animate">
+          {/* <div className="cs-solution-block cs-animate">
             <div className="cs-solution-block__text">
               <h3 className="cs-solution-block__title">Job Cards Redesign</h3>
               <p className="cs-section__text">Job cards originally had:</p>
@@ -264,10 +273,10 @@ const PICitStudy = () => {
                 <span>Final Job Card Design</span>
               </div>
             </div>
-          </div>
+          </div> */}
 
           {/* 4. Schedule View Improvement */}
-          <div className="cs-solution-block cs-solution-block--reverse cs-animate">
+          {/* <div className="cs-solution-block cs-solution-block--reverse cs-animate">
             <div className="cs-solution-block__text">
               <h3 className="cs-solution-block__title">Schedule View Improvement</h3>
               <p className="cs-section__text">
@@ -291,7 +300,7 @@ const PICitStudy = () => {
                 <span>Final Schedule View</span>
               </div>
             </div>
-          </div>
+          </div> */}
 
           {/* 5. Search & Filtering */}
           <div className="cs-solution-block cs-animate">
@@ -311,9 +320,7 @@ const PICitStudy = () => {
               </ul>
             </div>
             <div className="cs-solution-block__image">
-              <div className="cs-image-placeholder">
-                <span>Search Panel Screenshot</span>
-              </div>
+              <img className='cs-image-placeholder' src={filteringSection} alt="Onboarding screen" />
             </div>
           </div>
         </div>
@@ -323,22 +330,28 @@ const PICitStudy = () => {
       <section className="cs-section cs-animate">
         <div className="cs-section__inner">
           <h2 className="cs-section__heading">Testing &amp; Iteration</h2>
-          <p className="cs-section__text">Usability testing revealed:</p>
-          <ul className="cs-list">
-            <li>Sidebar hide feature was appreciated</li>
-            <li>Rounded job cards improved readability</li>
-            <li>Color emphasis worked better than italic text</li>
-            <li>Search filter needed clearer separation</li>
-            <li>Excel-like feel needed further reduction</li>
-          </ul>
-          <p className="cs-section__text">Changes implemented:</p>
-          <ul className="cs-list">
-            <li>Regular font on cards</li>
-            <li>Added color-based emphasis</li>
-            <li>Increased whitespace</li>
-            <li>Converted search to slide-out panel</li>
-            <li>Improved visual hierarchy</li>
-          </ul>
+          <div className="cs-solution-block__text" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr' }}>
+            <div>
+              <p className="cs-section__text">Usability testing revealed:</p>
+              <ul className="cs-list">
+                <li>Sidebar hide feature was appreciated</li>
+                <li>Rounded job cards improved readability</li>
+                <li>Color emphasis worked better than italic text</li>
+                <li>Search filter needed clearer separation</li>
+                <li>Excel-like feel needed further reduction</li>
+              </ul>
+            </div>
+            <div>
+              <p className="cs-section__text">Changes implemented:</p>
+              <ul className="cs-list">
+                <li>Regular font on cards</li>
+                <li>Added color-based emphasis</li>
+                <li>Increased whitespace</li>
+                <li>Converted search to slide-out panel</li>
+                <li>Improved visual hierarchy</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </section>
 

@@ -2,6 +2,9 @@ import React, { useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import './grundfos-study.css'
 import heroImage from '../../assets/portfolio14.png'
+import homeScreen from '../../assets/homeFinde.png'
+import socialFinde from '../../assets/socialFinde.png'
+import bookingFinde from '../../assets/bookingFinde.png'
 
 const FindeStudy = () => {
   const navigate = useNavigate()
@@ -176,7 +179,7 @@ const FindeStudy = () => {
             </div>
             <div className="cs-solution-block__image">
               <div className="cs-image-placeholder">
-                <span>Events Feed Screenshot</span>
+              <img className='cs-image-placeholder cs-image-placeholder-aspect-ration' style={{ objectFit: 'contain' }} src={homeScreen} alt="Onboarding screen" />
               </div>
             </div>
           </div>
@@ -196,9 +199,7 @@ const FindeStudy = () => {
               </p>
             </div>
             <div className="cs-solution-block__image">
-              <div className="cs-image-placeholder">
-                <span>Interaction Feature Screenshot</span>
-              </div>
+            <img className='cs-image-placeholder cs-image-placeholder-aspect-ration' style={{ objectFit: 'contain' }} src={socialFinde} alt="Onboarding screen" />
             </div>
           </div>
 
@@ -217,14 +218,12 @@ const FindeStudy = () => {
               </p>
             </div>
             <div className="cs-solution-block__image">
-              <div className="cs-image-placeholder">
-                <span>Booking / Utility Screenshot</span>
-              </div>
+            <img className='cs-image-placeholder cs-image-placeholder-aspect-ration' style={{ objectFit: 'contain' }} src={bookingFinde} alt="Onboarding screen" />
             </div>
           </div>
 
           {/* Visual Identity */}
-          <div className="cs-solution-block cs-solution-block--reverse cs-animate">
+          {/* <div className="cs-solution-block cs-solution-block--reverse cs-animate">
             <div className="cs-solution-block__text">
               <h3 className="cs-solution-block__title">Visual Identity</h3>
               <p className="cs-section__text">The visual direction is:</p>
@@ -246,7 +245,7 @@ const FindeStudy = () => {
                 <span>Design System Snapshot</span>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
 
