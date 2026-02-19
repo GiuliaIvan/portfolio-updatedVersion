@@ -323,8 +323,17 @@
   gap: 1.5rem;
 }
 
+.cs-images-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.cs-CoroB-image {
+  aspect-ratio: 4 / 3;
+}
+
 .cs-image-placeholder {
-  background: var(--color-bg-variant);
+  /* background: var(--color-bg-variant); */
   border-radius: 1.25rem;
   /* aspect-ratio: 4 / 3; */
   display: flex;
@@ -332,6 +341,10 @@
   justify-content: center;
   object-fit: contain;
   /* border: 1px dashed rgba(255, 255, 255, 0.1); */
+}
+
+.cs-image-placeholder-aspect-ration {
+  aspect-ratio: 4 / 4;
 }
 
 .cs-image-placeholder span {

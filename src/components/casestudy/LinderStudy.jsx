@@ -2,6 +2,9 @@ import React, { useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import './grundfos-study.css'
 import heroImage from '../../assets/linder.png'
+import image1 from '../../assets/onboardingScreen-Linder.png'
+import image2 from '../../assets/swipeCard-Linder.png'
+import image3 from '../../assets/swipeCardBack-Linder.png'
 
 const LinderStudy = () => {
   const navigate = useNavigate()
@@ -168,12 +171,7 @@ const LinderStudy = () => {
               </p>
             </div>
             <div className="cs-solution-block__image">
-              <div className="cs-image-placeholder">
-                <span>Onboarding Screens</span>
-              </div>
-              <div className="cs-image-placeholder">
-                <span>Stepper UI</span>
-              </div>
+              <img className='cs-image-placeholder cs-image-placeholder-aspect-ration' src={image1} alt="Onboarding screen" />
             </div>
           </div>
 
@@ -195,12 +193,7 @@ const LinderStudy = () => {
               </p>
             </div>
             <div className="cs-solution-block__image">
-              <div className="cs-image-placeholder">
-                <span>Swipe Card</span>
-              </div>
-              <div className="cs-image-placeholder">
-                <span>Flip Card</span>
-              </div>
+              <img className='cs-image-placeholder cs-image-placeholder-aspect-ration' src={image2} alt="Onboarding screen" />
             </div>
           </div>
 
@@ -219,15 +212,13 @@ const LinderStudy = () => {
               </ul>
             </div>
             <div className="cs-solution-block__image">
-              <div className="cs-image-placeholder">
-                <span>Profile Detail</span>
-              </div>
+              <img className='cs-image-placeholder cs-image-placeholder-aspect-ration' src={image3} alt="Onboarding screen" />
             </div>
           </div>
         </div>
       </section>
 
-      {/* SECTION 5 - UX WRITING & DESIGN DECISIONS */}
+      {/* SECTION 5 - UX WRITING & DESIGN DECISIONS
       <section className="cs-section cs-animate">
         <div className="cs-section__inner">
           <h2 className="cs-section__heading">UX Writing &amp; Design Decisions</h2>
@@ -256,7 +247,7 @@ const LinderStudy = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* SECTION 6 - DEVELOPMENT */}
       <section className="cs-section cs-animate">

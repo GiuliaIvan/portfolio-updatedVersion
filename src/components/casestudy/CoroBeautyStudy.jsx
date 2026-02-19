@@ -2,6 +2,15 @@ import React, { useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import './grundfos-study.css'
 import heroImage from '../../assets/portfolio12.png'
+import personaCard from '../../assets/personaCoroB.jpeg'
+import moodboard from '../../assets/moodboardCoroB.jpeg'
+import styleTile from '../../assets/styleTileCoroB.jpeg'
+import heroSection from '../../assets/heroCoroB.png'
+import servicesSection from '../../assets/servicesCoroB.png'
+import discountSection from '../../assets/discountsCoroB.png'
+import gallerySection from '../../assets/galleryCoroB.png'
+import testimonialsSection from '../../assets/testimonialsCoroB.png'
+import profileDashboard from '../../assets/profileCoroB.png'
 
 const CoroBeautyStudy = () => {
   const navigate = useNavigate()
@@ -145,9 +154,7 @@ const CoroBeautyStudy = () => {
           </div>
 
           <div className="cs-solution-block__image" style={{ marginTop: '2rem' }}>
-            <div className="cs-image-placeholder">
-              <span>Persona Card</span>
-            </div>
+           <img className='cs-image-placeholder cs-image-placeholder-aspect-ratio' src={personaCard} alt="Persona card" />
           </div>
         </div>
       </section>
@@ -190,13 +197,9 @@ const CoroBeautyStudy = () => {
             <li>Rounded buttons to reflect softness</li>
             <li>Soft shadows and gentle contrast</li>
           </ul>
-          <div className="cs-solution-block__image" style={{ marginTop: '2rem' }}>
-            <div className="cs-image-placeholder">
-              <span>Moodboard</span>
-            </div>
-            <div className="cs-image-placeholder">
-              <span>Style Tile</span>
-            </div>
+          <div className="cs-solution-block__image cs-images-grid" style={{ marginTop: '2rem' }}>
+            <img className='cs-image-placeholder cs-image-placeholder-aspect-ratio cs-CoroB-image' style={{ objectFit: 'fill' }} src={moodboard} alt="Persona card" />
+            <img className='cs-image-placeholder cs-image-placeholder-aspect-ratio cs-CoroB-image' style={{ objectFit: 'fill' }} src={styleTile} alt="Persona card" />
           </div>
         </div>
       </section>
@@ -215,9 +218,7 @@ const CoroBeautyStudy = () => {
               </p>
             </div>
             <div className="cs-solution-block__image">
-              <div className="cs-image-placeholder">
-                <span>Hero Section Screenshot</span>
-              </div>
+              <img className='cs-image-placeholder' src={heroSection} alt="Onboarding screen" />
             </div>
           </div>
 
@@ -237,9 +238,7 @@ const CoroBeautyStudy = () => {
               </ul>
             </div>
             <div className="cs-solution-block__image">
-              <div className="cs-image-placeholder">
-                <span>Services Section Screenshot</span>
-              </div>
+              <img className='cs-image-placeholder' src={servicesSection} alt="Onboarding screen" />
             </div>
           </div>
 
@@ -258,9 +257,7 @@ const CoroBeautyStudy = () => {
               </ul>
             </div>
             <div className="cs-solution-block__image">
-              <div className="cs-image-placeholder">
-                <span>Discount Cards Screenshot</span>
-              </div>
+              <img className='cs-image-placeholder' src={discountSection} alt="Onboarding screen" />
             </div>
           </div>
 
@@ -276,9 +273,7 @@ const CoroBeautyStudy = () => {
               </ul>
             </div>
             <div className="cs-solution-block__image">
-              <div className="cs-image-placeholder">
-                <span>Gallery Section Screenshot</span>
-              </div>
+              <img className='cs-image-placeholder' src={gallerySection} alt="Onboarding screen" />
             </div>
           </div>
 
@@ -291,9 +286,7 @@ const CoroBeautyStudy = () => {
               </p>
             </div>
             <div className="cs-solution-block__image">
-              <div className="cs-image-placeholder">
-                <span>Testimonials Screenshot</span>
-              </div>
+              <img className='cs-image-placeholder' src={testimonialsSection} alt="Onboarding screen" />
             </div>
           </div>
 
@@ -315,9 +308,7 @@ const CoroBeautyStudy = () => {
               </p>
             </div>
             <div className="cs-solution-block__image">
-              <div className="cs-image-placeholder">
-                <span>Profile Dashboard Screenshot</span>
-              </div>
+              <img className='cs-image-placeholder' src={profileDashboard} alt="Onboarding screen" />
             </div>
           </div>
         </div>
