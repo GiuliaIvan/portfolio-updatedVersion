@@ -1,12 +1,15 @@
 {
   "files": {
     "main.css": "/portfolio-updatedVersion/static/css/main.20fb55e4.css",
-    "main.js": "/portfolio-updatedVersion/static/js/main.0ef82e95.js",
+    "main.js": "/portfolio-updatedVersion/static/js/main.47e2fbfd.js",
     "static/media/portfolio8.jpg": "/portfolio-updatedVersion/static/media/portfolio8.43b7cc956826a884544e.jpg",
+    "static/media/homeKromosom.png": "/portfolio-updatedVersion/static/media/homeKromosom.538caa6a70d0a63db227.png",
     "static/media/galleryCoroB.png": "/portfolio-updatedVersion/static/media/galleryCoroB.63ae4347611bd1348bb1.png",
     "static/media/portfolio14.png": "/portfolio-updatedVersion/static/media/portfolio14.718bae570adf911a229d.png",
+    "static/media/aboutKromosom.png": "/portfolio-updatedVersion/static/media/aboutKromosom.7498a5c648e4d5c24275.png",
     "static/media/heroCoroB.png": "/portfolio-updatedVersion/static/media/heroCoroB.ce81090bdf3d54f9ac47.png",
     "static/media/yt.png": "/portfolio-updatedVersion/static/media/yt.c90517cec9a01b955c2a.png",
+    "static/media/cafeKromosom.png": "/portfolio-updatedVersion/static/media/cafeKromosom.0de2843207057d6242c4.png",
     "static/media/coursePage.png": "/portfolio-updatedVersion/static/media/coursePage.a549d210fbaf5531ddd1.png",
     "static/media/portfolio11.jpg": "/portfolio-updatedVersion/static/media/portfolio11.a1346a57a4f0805963ea.jpg",
     "static/media/courseDetails2.png": "/portfolio-updatedVersion/static/media/courseDetails2.0bd725c9b64ae215214c.png",
@@ -26,8 +29,14 @@
     "static/media/moodboardCoroB.jpeg": "/portfolio-updatedVersion/static/media/moodboardCoroB.5a58b3f75be5e9c28c6c.jpeg",
     "static/media/dashboard.png": "/portfolio-updatedVersion/static/media/dashboard.5c0f91f6e00f6836c84c.png",
     "static/media/discountsCoroB.png": "/portfolio-updatedVersion/static/media/discountsCoroB.e57280b71c29bf7c0575.png",
+    "static/media/filteringPIC.png": "/portfolio-updatedVersion/static/media/filteringPIC.6043540365515dc271de.png",
+    "static/media/socialFinde.png": "/portfolio-updatedVersion/static/media/socialFinde.89d32f630a3798bdde5d.png",
     "static/media/personalizedOnboarding.png": "/portfolio-updatedVersion/static/media/personalizedOnboarding.dfcc08956ec9a3ae056d.png",
+    "static/media/beforePICit.png": "/portfolio-updatedVersion/static/media/beforePICit.1e5cf9a576c84a7e1257.png",
     "static/media/quiz2.png": "/portfolio-updatedVersion/static/media/quiz2.bd116fa26a39a3668cce.png",
+    "static/media/afterPICit.png": "/portfolio-updatedVersion/static/media/afterPICit.54b68fb280f7edcecf0f.png",
+    "static/media/bookingFinde.png": "/portfolio-updatedVersion/static/media/bookingFinde.3f3993d1de040c3431b0.png",
+    "static/media/homeFinde.png": "/portfolio-updatedVersion/static/media/homeFinde.9c66aa78a4ace177af29.png",
     "static/media/quiz1.png": "/portfolio-updatedVersion/static/media/quiz1.4dc0fb2a113c4a8ea65e.png",
     "static/media/FoT.png": "/portfolio-updatedVersion/static/media/FoT.6da8d6ce8a4ddbcaa4f9.png",
     "static/media/me.png": "/portfolio-updatedVersion/static/media/me.45f2929f7361e664e310.png",
@@ -42,10 +51,10 @@
     "static/media/avatar1.png": "/portfolio-updatedVersion/static/media/avatar1.b89005eab6e67af32337.png",
     "index.html": "/portfolio-updatedVersion/index.html",
     "main.20fb55e4.css.map": "/portfolio-updatedVersion/static/css/main.20fb55e4.css.map",
-    "main.0ef82e95.js.map": "/portfolio-updatedVersion/static/js/main.0ef82e95.js.map"
+    "main.47e2fbfd.js.map": "/portfolio-updatedVersion/static/js/main.47e2fbfd.js.map"
   },
   "entrypoints": [
     "static/css/main.20fb55e4.css",
-    "static/js/main.0ef82e95.js"
+    "static/js/main.47e2fbfd.js"
   ]
 }
