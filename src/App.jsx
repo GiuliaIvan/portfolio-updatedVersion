@@ -17,6 +17,7 @@ import FindeStudy from './components/casestudy/FindeStudy'
 import PICitStudy from './components/casestudy/PICitStudy'
 import Dorm8sStudy from './components/casestudy/Dorm8sStudy'
 import FragmentsOfTimeStudy from './components/casestudy/FragmentsOfTimeStudy'
+import CafeHerOgDerStudy from './components/casestudy/CafeHerOgDerStudy'
 
 const HomePage = () => {
   useLayoutEffect(() => {
@@ -54,6 +55,7 @@ const App = () => {
       <Route path="/projects/picit" element={<PICitStudy />} />
       <Route path="/projects/dorm8s" element={<Dorm8sStudy />} />
       <Route path="/projects/fragments-of-time" element={<FragmentsOfTimeStudy />} />
+      <Route path="/projects/cafe-her-og-der" element={<CafeHerOgDerStudy />} />
     </Routes>
   )
 }

@@ -127,6 +127,7 @@ const data = [
     image: IMG1,
     title: "Caf\u00e9 Her Og Der",
     description: "Designing a cozy, mobile-first website that reflects brand identity and enhances user experience.",
+    caseStudy: "/projects/cafe-her-og-der",
     github: "https://github.com/GiuliaIvan/cafeHerOgDer",
     demo: "https://giuliaivan.github.io/cafeHerOgDer/",
   },
