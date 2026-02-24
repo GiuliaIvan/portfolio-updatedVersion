@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useLayoutEffect } from 'react'
 import { Routes, Route } from 'react-router-dom'
 import Header from './components/header/Header'
 import Nav from './components/nav/Nav'
@@ -18,6 +18,14 @@ import PICitStudy from './components/casestudy/PICitStudy'
 import Dorm8sStudy from './components/casestudy/Dorm8sStudy'
 
 const HomePage = () => {
+  useLayoutEffect(() => {
+    const savedScrollY = sessionStorage.getItem('portfolioScrollY')
+    if (savedScrollY) {
+      sessionStorage.removeItem('portfolioScrollY')
+      window.scrollTo({ top: parseInt(savedScrollY, 10), behavior: 'instant' })
+    }
+  }, [])
+
   return (
     <>
       <Header />

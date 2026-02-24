@@ -291,6 +291,7 @@ const Portfolio = () => {
 
   const handleCardClick = (project) => {
     if (project.caseStudy) {
+      sessionStorage.setItem('portfolioScrollY', window.scrollY.toString());
       navigate(project.caseStudy);
     }
   };

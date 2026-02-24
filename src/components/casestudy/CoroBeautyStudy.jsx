@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useLayoutEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import './grundfos-study.css'
 import heroImage from '../../assets/portfolio12.png'
@@ -16,9 +16,11 @@ import profileDashboard from '../../assets/profileCoroB.png'
 const CoroBeautyStudy = () => {
   const navigate = useNavigate()
 
-  useEffect(() => {
-    window.scrollTo(0, 0)
+  useLayoutEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'instant' })
+  }, [])
 
+  useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
@@ -395,7 +397,7 @@ const CoroBeautyStudy = () => {
           >
             View GitHub
           </a>
-          <button className="btn cs-closing__back" onClick={() => { navigate('/'); window.scrollTo(0, 0) }}>
+          <button className="btn cs-closing__back" onClick={() => navigate('/')}>
             Back to Portfolio
           </button>
         </div>
