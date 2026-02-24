@@ -22,7 +22,14 @@ const Header = () => {
           <img src={ME} alt="profile" />
         </div>
 
-        <a href="#contact" className="scroll__down">
+        <a
+          href="#contact"
+          className="scroll__down"
+          onClick={(e) => {
+            e.preventDefault();
+            document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
+          }}
+        >
           Scroll Down
         </a>
       </div>

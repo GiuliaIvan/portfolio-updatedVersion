@@ -12,6 +12,16 @@ import { useEffect } from "react";
 const Nav = () => {
   const [activeNav, setActiveNav] = useState("#");
 
+  const scrollToSection = (e, sectionId) => {
+    e.preventDefault();
+    setActiveNav(sectionId);
+    if (sectionId === "#") {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    } else {
+      document.getElementById(sectionId.substring(1))?.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   useEffect(() => {
     const handleScroll = () => {
       const scrollY = window.scrollY;
@@ -30,12 +40,6 @@ const Nav = () => {
         }
       });
 
-      // 🔹 Keep #services active while scrolling through #portfolio
-      // if (currentSection === "#portfolio" || currentSection === "#services") {
-      //   currentSection = "#services";
-      // }
-
-      // 🔹 Ensure #contact takes priority when reached
       const contactSection = document.querySelector("#contact");
       if (
         contactSection &&
@@ -55,42 +59,42 @@ const Nav = () => {
     <nav>
       <a
         href="#"
-        onClick={() => setActiveNav("#")}
+        onClick={(e) => scrollToSection(e, "#")}
         className={activeNav === "#" ? "active" : ""}
       >
         <AiOutlineHome />
       </a>
       <a
         href="#about"
-        onClick={() => setActiveNav("#about")}
+        onClick={(e) => scrollToSection(e, "#about")}
         className={activeNav === "#about" ? "active" : ""}
       >
         <AiOutlineUser />
       </a>
       <a
         href="#experience"
-        onClick={() => setActiveNav("#experience")}
+        onClick={(e) => scrollToSection(e, "#experience")}
         className={activeNav === "#experience" ? "active" : ""}
       >
         <BiBook />
       </a>
       <a
         href="#services"
-        onClick={() => setActiveNav("#services")}
+        onClick={(e) => scrollToSection(e, "#services")}
         className={activeNav === "#services" ? "active" : ""}
       >
         <RiServiceLine />
       </a>
       <a
         href="#portfolio"
-        onClick={() => setActiveNav("#portfolio")}
+        onClick={(e) => scrollToSection(e, "#portfolio")}
         className={activeNav === "#portfolio" ? "active" : ""}
       >
         <FaRegFolderOpen />
       </a>
       <a
         href="#contact"
-        onClick={() => setActiveNav("#contact")}
+        onClick={(e) => scrollToSection(e, "#contact")}
         className={activeNav === "#contact" ? "active" : ""}
       >
         <BiMessageSquareDetail />
