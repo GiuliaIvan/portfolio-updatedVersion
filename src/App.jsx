@@ -16,6 +16,7 @@ import KromosomStudy from './components/casestudy/KromosomStudy'
 import FindeStudy from './components/casestudy/FindeStudy'
 import PICitStudy from './components/casestudy/PICitStudy'
 import Dorm8sStudy from './components/casestudy/Dorm8sStudy'
+import FragmentsOfTimeStudy from './components/casestudy/FragmentsOfTimeStudy'
 
 const HomePage = () => {
   useLayoutEffect(() => {
@@ -52,6 +53,7 @@ const App = () => {
       <Route path="/projects/finde" element={<FindeStudy />} />
       <Route path="/projects/picit" element={<PICitStudy />} />
       <Route path="/projects/dorm8s" element={<Dorm8sStudy />} />
+      <Route path="/projects/fragments-of-time" element={<FragmentsOfTimeStudy />} />
     </Routes>
   )
 }

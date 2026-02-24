@@ -105,6 +105,7 @@ const data = [
     image: IMG14,
     title: "Fragments of Time",
     description: "A 2D game with emphasis on interaction design, narrative flow, and user engagement.",
+    caseStudy: "/projects/fragments-of-time",
     github: "https://github.com/GiuliaIvan/exam_project_unity",
     demo: "https://youtu.be/Q0ePBVqSD8o",
   },
@@ -224,6 +225,19 @@ const data = [
     demo: "https://waveswebmagazine.netlify.app/",
   },
   {
+    key: 8,
+    categories: "design",
+    tags: ["Adobe XD", "User Research", "UX Thinking", "Digital Concept"],
+    id: "hiddenButton",
+    image: IMG8,
+    title: "Finde - Digital Assistant",
+    description: "Improving social interaction and community life inside student dorms.",
+    caseStudy: "/projects/finde",
+    github:
+      "https://xd.adobe.com/view/f0affcad-3cf4-4f1e-98d4-3b33160dcc0d-a5fc/screen/47c54d60-8d30-4d1b-910d-a934a5391825",
+    demo: "https://xd.adobe.com/view/f0affcad-3cf4-4f1e-98d4-3b33160dcc0d-a5fc/screen/47c54d60-8d30-4d1b-910d-a934a5391825",
+  },
+  {
     key: 9,
     categories: "content",
     tags: ["PremierePro", "Content Creation", "Storytelling", "Video Editing"],
@@ -264,19 +278,6 @@ const data = [
     description: "A collection of personal projects to practice and improve my skills.",
     github: "https://github.com/GiuliaIvan/JavaScript-projects",
     demo: "https://giuliaivan.github.io/JavaScript-projects/",
-  },
-  {
-    key: 8,
-    categories: "design",
-    tags: ["Adobe XD", "User Research", "UX Thinking", "Digital Concept"],
-    id: "hiddenButton",
-    image: IMG8,
-    title: "Finde - Digital Assistant",
-    description: "Improving social interaction and community life inside student dorms.",
-    caseStudy: "/projects/finde",
-    github:
-      "https://xd.adobe.com/view/f0affcad-3cf4-4f1e-98d4-3b33160dcc0d-a5fc/screen/47c54d60-8d30-4d1b-910d-a934a5391825",
-    demo: "https://xd.adobe.com/view/f0affcad-3cf4-4f1e-98d4-3b33160dcc0d-a5fc/screen/47c54d60-8d30-4d1b-910d-a934a5391825",
   },
 ];
 
