@@ -183,28 +183,6 @@ const data = [
     demo: "https://vlkeniko.github.io/dorm8ts.build/",
   },
   {
-    key: 10,
-    categories: "design",
-    tags: [
-      "B2B",
-      "B2C",
-      "Digital Concept Development",
-      "Usability Testing",
-      "Figma",
-      "Minimalist aesthetic",
-      "Design Thinking framework",
-      "User research",
-      "UX Thinking",
-      "Business Strategy",
-    ],
-    image: IMG10,
-    title: "MaxiZoo",
-    description: "Creating an intuitive e-commerce platform that enhances product discovery and user experience.",
-    github:
-      "https://www.figma.com/proto/2G0nRjjbvtFd6cQcSYLRrY/MaxiZoo?node-id=2-848&p=f&t=kYtTyXW4flYeS3Zh-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=4%3A14",
-    demo: "https://www.figma.com/proto/2G0nRjjbvtFd6cQcSYLRrY/MaxiZoo?node-id=2-848&p=f&t=kYtTyXW4flYeS3Zh-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=4%3A14",
-  },
-  {
     key: 3,
     categories: ["code", "design", "content"],
     tags: [
@@ -225,6 +203,28 @@ const data = [
     caseStudy: "/projects/waves",
     github: "https://github.com/GiuliaIvan/wavesWebMagazine",
     demo: "https://waveswebmagazine.netlify.app/",
+  },
+  {
+    key: 10,
+    categories: "design",
+    tags: [
+      "B2B",
+      "B2C",
+      "Digital Concept Development",
+      "Usability Testing",
+      "Figma",
+      "Minimalist aesthetic",
+      "Design Thinking framework",
+      "User research",
+      "UX Thinking",
+      "Business Strategy",
+    ],
+    image: IMG10,
+    title: "MaxiZoo",
+    description: "Creating an intuitive e-commerce platform that enhances product discovery and user experience.",
+    github:
+      "https://www.figma.com/proto/2G0nRjjbvtFd6cQcSYLRrY/MaxiZoo?node-id=2-848&p=f&t=kYtTyXW4flYeS3Zh-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=4%3A14",
+    demo: "https://www.figma.com/proto/2G0nRjjbvtFd6cQcSYLRrY/MaxiZoo?node-id=2-848&p=f&t=kYtTyXW4flYeS3Zh-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=4%3A14",
   },
   {
     key: 8,
