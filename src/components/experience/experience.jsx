@@ -50,6 +50,20 @@ const Experience = () => {
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
+                <h4>Cursor</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Codex</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
                 <h4>Lit</h4>
                 <small className="text-light">Intermediate</small>
               </div>
@@ -85,13 +99,6 @@ const Experience = () => {
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>EJS</h4>
-                <small className="text-light">Basic</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
                 <h4>Express js</h4>
                 <small className="text-light">Basic</small>
               </div>
@@ -108,13 +115,6 @@ const Experience = () => {
               <div>
                 <h4>Tailwind</h4>
                 <small className="text-light">Intermediate</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>Wordpress</h4>
-                <small className="text-light">Basic</small>
               </div>
             </article>
             <article className="experience__details">

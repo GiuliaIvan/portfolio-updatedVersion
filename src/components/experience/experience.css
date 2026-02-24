@@ -31,8 +31,12 @@
 }
 
 .experience__details {
-    display: flex;
+    display: flex; 
     gap: 1rem;
+}
+
+.text-light {
+    display: none;
 }
 
 .experience__details-icon {
