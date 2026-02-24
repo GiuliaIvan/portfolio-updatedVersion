@@ -27,21 +27,32 @@
 .experience__content {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    row-gap: 2rem;
+    row-gap: 1.5rem;
+    column-gap: 2rem;
 }
 
 .experience__details {
     display: flex; 
-    gap: 1rem;
+    gap: 0.75rem;
+    align-items: center;
 }
 
-.text-light {
+.experience__details:nth-child(odd) {
+    justify-self: start;
+}
+
+.experience__details:nth-child(even) {
+    justify-self: start;
+}
+
+.experience__details .text-light {
     display: none;
 }
 
 .experience__details-icon {
-    margin-top: 6px;
     color: var(--color-primary);
+    font-size: 1rem;
+    flex-shrink: 0;
 }
 
 
