@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-updatedVersion/static/css/main.e684bb1e.css",
-    "main.js": "/portfolio-updatedVersion/static/js/main.81f4c28f.js",
+    "main.js": "/portfolio-updatedVersion/static/js/main.6d49caf9.js",
     "static/media/portfolio8.jpg": "/portfolio-updatedVersion/static/media/portfolio8.43b7cc956826a884544e.jpg",
     "static/media/homeKromosom.png": "/portfolio-updatedVersion/static/media/homeKromosom.538caa6a70d0a63db227.png",
     "static/media/galleryCoroB.png": "/portfolio-updatedVersion/static/media/galleryCoroB.63ae4347611bd1348bb1.png",
@@ -62,14 +62,14 @@
     "static/media/leo.jpg": "/portfolio-updatedVersion/static/media/leo.bd35daf1be5e9e680b01.jpg",
     "static/media/artifactFOT.png": "/portfolio-updatedVersion/static/media/artifactFOT.ab9066552ded70d7f3d7.png",
     "static/media/portfolio7.jpg": "/portfolio-updatedVersion/static/media/portfolio7.29d9cc73e19261c9cc25.jpg",
-    "static/media/grundfos.png": "/portfolio-updatedVersion/static/media/grundfos.959bfea15f3e05783a70.png",
+    "static/media/grundfos.jpg": "/portfolio-updatedVersion/static/media/grundfos.ffbbac2df4420a95a354.jpg",
     "static/media/avatar1.png": "/portfolio-updatedVersion/static/media/avatar1.b89005eab6e67af32337.png",
     "index.html": "/portfolio-updatedVersion/index.html",
     "main.e684bb1e.css.map": "/portfolio-updatedVersion/static/css/main.e684bb1e.css.map",
-    "main.81f4c28f.js.map": "/portfolio-updatedVersion/static/js/main.81f4c28f.js.map"
+    "main.6d49caf9.js.map": "/portfolio-updatedVersion/static/js/main.6d49caf9.js.map"
   },
   "entrypoints": [
     "static/css/main.e684bb1e.css",
-    "static/js/main.81f4c28f.js"
+    "static/js/main.6d49caf9.js"
   ]
 }
