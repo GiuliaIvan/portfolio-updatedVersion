@@ -1,7 +1,7 @@
 import React, { useEffect, useLayoutEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import './grundfos-study.css'
-import heroImage from '../../assets/grundfos.png'
+import heroImage from '../../assets/grundfos.jpg'
 import image1 from '../../assets/personalizedOnboarding.png'
 import image2 from '../../assets/dashboard.png'
 import image3 from '../../assets/coursePage.png'

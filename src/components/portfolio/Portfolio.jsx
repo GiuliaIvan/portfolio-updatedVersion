@@ -11,7 +11,7 @@ import IMG7 from "../../assets/portfolio13.png";
 import IMG8 from "../../assets/portfolio14.png";
 import IMG9 from "../../assets/yt.png";
 import IMG10 from "../../assets/maxizoo.png";
-import IMG11 from "../../assets/grundfos.png";
+import IMG11 from "../../assets/grundfos.jpg";
 import IMG12 from "../../assets/linder.png";
 import IMG13 from "../../assets/PostgreSQL.png";
 import IMG14 from "../../assets/FoT.png";
