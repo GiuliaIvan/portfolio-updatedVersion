@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-updatedVersion/static/css/main.e684bb1e.css",
-    "main.js": "/portfolio-updatedVersion/static/js/main.6d49caf9.js",
+    "main.js": "/portfolio-updatedVersion/static/js/main.8714f843.js",
     "static/media/portfolio8.jpg": "/portfolio-updatedVersion/static/media/portfolio8.43b7cc956826a884544e.jpg",
     "static/media/homeKromosom.png": "/portfolio-updatedVersion/static/media/homeKromosom.538caa6a70d0a63db227.png",
     "static/media/galleryCoroB.png": "/portfolio-updatedVersion/static/media/galleryCoroB.63ae4347611bd1348bb1.png",
@@ -66,10 +66,10 @@
     "static/media/avatar1.png": "/portfolio-updatedVersion/static/media/avatar1.b89005eab6e67af32337.png",
     "index.html": "/portfolio-updatedVersion/index.html",
     "main.e684bb1e.css.map": "/portfolio-updatedVersion/static/css/main.e684bb1e.css.map",
-    "main.6d49caf9.js.map": "/portfolio-updatedVersion/static/js/main.6d49caf9.js.map"
+    "main.8714f843.js.map": "/portfolio-updatedVersion/static/js/main.8714f843.js.map"
   },
   "entrypoints": [
     "static/css/main.e684bb1e.css",
-    "static/js/main.6d49caf9.js"
+    "static/js/main.8714f843.js"
   ]
 }
