@@ -38,7 +38,7 @@ const About = () => {
           </div>
 
           <p>
-            I'm a UX-focused Frontend Developer who enjoys working at the
+            I'm a UX Engineer who enjoys working at the
             intersection of <strong style={{ color: "white" }}>design</strong>,{" "}
             <strong style={{ color: "white" }}>technology</strong> and{" "}
             <strong style={{ color: "white" }}>business</strong>.
